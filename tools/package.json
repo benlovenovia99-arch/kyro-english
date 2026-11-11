@@ -1,0 +1,8 @@
+{
+  "name": "kyro-english-tools",
+  "private": true,
+  "description": "Build and test tools for Kyro's daily GEPT practice pages",
+  "dependencies": {
+    "jsdom": "24.1.3"
+  }
+}

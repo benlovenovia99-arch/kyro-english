@@ -1,0 +1,64 @@
+[
+ {
+  "date": "2026-11-12",
+  "no": 1,
+  "focus": "今天的重點：天氣、數數量、Can you…?、Whose…?、看菜單找價錢、否定句加 not、用 but 連接。",
+  "pictures": [
+   "weather:rainy",
+   "count:bird"
+  ],
+  "questions": [
+   "What color is your new bike?",
+   "Can you swim, Kyro?",
+   "Whose pencil is it?",
+   "What does Kyro want for breakfast?",
+   "What is the weather like today?",
+   "What does Kyro have for Mom?"
+  ],
+  "vocabAnswers": [
+   "water",
+   "habitat",
+   "are"
+  ],
+  "clozeAnswers": [
+   "with",
+   "a"
+  ],
+  "textGenre": "menu",
+  "rewrite": "Kyro is sleepy. → Kyro is not sleepy.",
+  "combine": "but",
+  "order": "Kane can swim fast.",
+  "writePanels": [
+   "clock",
+   "position:ball:under-chair",
+   "count:apple"
+  ],
+  "texts": [
+   "What's the weather like?",
+   "How many birds are there?",
+   "What color is your new bike?",
+   "Can you swim, Kyro?",
+   "Whose pencil is it?",
+   "Hi, Kyro. Is this your pencil?",
+   "No, it's Kane's pencil. My pencil is blue.",
+   "What does Kyro want for breakfast?",
+   "Kyro, what do you want for breakfast?",
+   "Eggs and milk, please.",
+   "OK. Here you are.",
+   "What is the weather like today?",
+   "Good morning, everyone. Today is cold and very windy. Please wear a hat and a coat. Don't bring an umbrella. It is not rainy today.",
+   "What does Kyro have for Mom?",
+   "Look! I have a cake for Mom. It is her birthday today. The cake is small and pink. There is one big candle on it.",
+   "I am thirsty. I want some ____.",
+   "A bird lives in a tree. The tree is its ____.",
+   "Kane and Kyro ____ brothers.",
+   "Today is Saturday. I go to the library {1} Dad. The library is big and quiet. I read three books about animals. My favorite book is about {2} frog. It can jump very high! It is fun.",
+   "How much is the milk? | Sunny Cafe",
+   "What can you eat at Sunny Cafe? | Sunny Cafe",
+   "When does Sunny Cafe open? | Sunny Cafe",
+   "Kyro is sleepy.",
+   "I like cats. I don't like dogs.",
+   "Kane can swim fast."
+  ]
+ }
+]
