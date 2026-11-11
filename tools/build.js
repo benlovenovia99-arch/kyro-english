@@ -8,7 +8,7 @@ const fs = require("fs");
 const path = require("path");
 const { ROOT, readJSON, validateDay, summarize } = require("./lib.js");
 
-const VERSION = "3";
+const VERSION = "4";
 const date = process.argv[2];
 if (!/^\d{4}-\d{2}-\d{2}$/.test(date || "")) { console.error("用法：node tools/build.js YYYY-MM-DD"); process.exit(2); }
 const dayDir = path.join(ROOT, "days", date);

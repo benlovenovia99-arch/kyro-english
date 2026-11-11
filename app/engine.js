@@ -67,19 +67,23 @@
     if (!synth) return;
     var all = [];
     try { all = synth.getVoices() || []; } catch (e) {}
-    var bad = /bubbles|bells|boing|bad news|good news|cellos|organ|trinoids|whisper|zarvox|jester|superstar|wobble|albert|hysterical|deranged|pipe|grandma|grandpa|eddy|flo\b|reed|rocko|sandy|shelley/i;
+    var bad = /bubbles|bells|boing|bad news|good news|cellos|organ|trinoids|whisper|zarvox|jester|superstar|wobble|albert|hysterical|deranged|pipe|grandma|grandpa|eddy|flo\b|reed|rocko|sandy|shelley|fred|ralph|junior|kathy|princess/i;
     var en = all.filter(function (v) { return /^en[-_]/i.test(v.lang) && !bad.test(v.name); });
     var us = en.filter(function (v) { return /US/i.test(v.lang); });
     var pool = us.length ? us : en;
     var fem = /samantha|ava|allison|susan|zoe|nicky|joelle|karen|zira|jenny|aria|female|google us english/i;
     var mal = /alex|fred|aaron|tom\b|evan|nathan|daniel|david|guy|\bmale\b|ralph/i;
     V.f = pool.find(function (v) { return fem.test(v.name); }) || pool.find(function (v) { return !mal.test(v.name); }) || pool[0] || null;
-    V.m = pool.find(function (v) { return mal.test(v.name); }) || null;
+    V.m = null;
+    [/aaron/i, /evan/i, /nathan/i, /\btom\b/i, /alex/i, /google uk english male/i, /daniel/i, /guy|david|mark/i, /\bmale\b/i].some(function (re) {
+      V.m = pool.find(function (v) { return re.test(v.name); }) || en.find(function (v) { return re.test(v.name); }) || null;
+      return !!V.m;
+    });
   }
   if (synth) { loadVoices(); try { synth.onvoiceschanged = loadVoices; } catch (e) {} }
   var ROLE = {
-    n: { v: "f", p: 1, r: 1 }, w: { v: "f", p: 1.08, r: 1 }, m: { v: "m", p: 1, alt: 0.72, r: 0.97 },
-    b: { v: "f", p: 1.4, r: 1.02 }, g: { v: "f", p: 1.3, r: 1.02 }, k: { v: "m", p: 1.18, alt: 1.22, r: 1 }
+    n: { v: "f", p: 1, r: 1 }, w: { v: "f", p: 1.08, r: 1 }, m: { v: "m", p: 1, alt: 0.92, r: 0.95 },
+    b: { v: "f", p: 1.4, r: 1.02 }, g: { v: "f", p: 1.3, r: 1.02 }, k: { v: "m", p: 1.18, alt: 1.12, r: 1 }
   };
   var curDone = null;
   function speakLines(lines, onDone) {
