@@ -60,5 +60,67 @@
    "I like cats. I don't like dogs.",
    "Kane can swim fast."
   ]
+ },
+ {
+  "date": "2026-11-13",
+  "no": 2,
+  "focus": "今天的重點：看時鐘說半點、in/on/next to、Where…?、How old…?、公告找細節、問句把 is 放前面、用 or 連接。",
+  "pictures": [
+   "clock",
+   "position:cat:in-box"
+  ],
+  "questions": [
+   "Where is your bag, Kyro?",
+   "How old is your brother?",
+   "What does Kyro want?",
+   "What pet does Kyro have?",
+   "What is Kyro's favorite toy?",
+   "What will Kane bring to the party?"
+  ],
+  "vocabAnswers": [
+   "hungry",
+   "doctor",
+   "plays"
+  ],
+  "clozeAnswers": [
+   "are",
+   "an"
+  ],
+  "textGenre": "notice",
+  "rewrite": "Kane is tall. → Is Kane tall?",
+  "combine": "or",
+  "order": "The dog is under the tree.",
+  "writePanels": [
+   "price:book",
+   "weather:sunny",
+   "calendar"
+  ],
+  "texts": [
+   "What time is it?",
+   "Where is the cat?",
+   "Where is your bag, Kyro?",
+   "How old is your brother?",
+   "What does Kyro want?",
+   "Mom, I like this ball. How much is it?",
+   "It's eighty dollars.",
+   "Great! I want the red one, please.",
+   "What pet does Kyro have?",
+   "Kyro, do you have a pet?",
+   "Yes, I do. I have a little fish. Its name is Bubbles.",
+   "What is Kyro's favorite toy?",
+   "This is my favorite toy. It is round and orange. I play with it in the park with Kane every Sunday. It can go up very high.",
+   "What will Kane bring to the party?",
+   "Hi, Kane. This is Amy. Our class party is on Friday. Please bring some bananas. I will bring apples and juice. See you at school!",
+   "The dog is very ____. It wants some food.",
+   "A ____ helps sick people at the hospital.",
+   "Kane ____ soccer every Saturday.",
+   "Dear Grandma, How are you? I am in Taitung with my family. It is sunny and hot today. There {1} many birds at the beach. I have {2} orange hat. It is new. I miss you! Love, Kyro",
+   "When is the library closed? | Library Notice",
+   "How many books can you borrow at a time? | Library Notice",
+   "What can't you do in the library? | Library Notice",
+   "Kane is tall.",
+   "Do you want milk? Do you want juice?",
+   "The dog is under the tree."
+  ]
  }
 ]

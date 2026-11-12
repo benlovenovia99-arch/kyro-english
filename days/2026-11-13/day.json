@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-13",
+  "no": 2,
+  "focus": "今天的重點：看時鐘說半點、in/on/next to、Where…?、How old…?、公告找細節、問句把 is 放前面、用 or 連接。",
+  "notes": [
+    "聽力第 1 題：three thirty 是 3 點半，長針指著 6。",
+    "閱讀第 2 題：doctor 是學校 LA 第 1 單元的職業單字；第 3 題練第三人稱加 -s（Kane plays）。",
+    "寫作第 1、2 題：今天換成 be 動詞問句（Is Kane tall?）和連接詞 or，句尾都要問號。"
+  ],
+  "listen": [
+    {"kind": "picaudio", "pic": {"type": "clock", "h": 3, "m": 30},
+     "q": "What time is it?",
+     "opts": ["It's three o'clock.", "It's four thirty.", "It's three thirty."], "ans": 2,
+     "why": "短針在 3 和 4 中間，長針指著 6，是 3 點半：three thirty。"},
+    {"kind": "picaudio", "pic": {"type": "position", "obj": "cat", "color": "orange", "rel": "in", "ref": "box"},
+     "q": "Where is the cat?",
+     "opts": ["It's on the box.", "It's in the box.", "It's next to the box."], "ans": 1,
+     "why": "貓在箱子裡面，用 in the box。"},
+    {"kind": "audioq", "talk": [["w", "Where is your bag, Kyro?"]],
+     "opts": ["It's on my desk.", "It's very blue.", "Yes, I do."], "ans": 0,
+     "why": "Where 問在哪裡，要回答地方：on my desk（在我的書桌上）。"},
+    {"kind": "audioq", "talk": [["m", "How old is your brother?"]],
+     "opts": ["He is tall.", "He is ten years old.", "He is at school."], "ans": 1,
+     "why": "How old 問幾歲，要回答年紀：ten years old。"},
+    {"kind": "dialog", "talk": [["b", "Mom, I like this ball. How much is it?"], ["w", "It's eighty dollars."], ["b", "Great! I want the red one, please."]],
+     "q": "What does Kyro want?",
+     "opts": ["A red ball.", "A blue ball.", "A red hat."], "ans": 0,
+     "why": "Kyro 說 I like this ball，又說 I want the red one：紅色的球。"},
+    {"kind": "dialog", "talk": [["k", "Kyro, do you have a pet?"], ["b", "Yes, I do. I have a little fish. Its name is Bubbles."]],
+     "q": "What pet does Kyro have?",
+     "opts": ["A dog.", "A cat.", "A fish."], "ans": 2,
+     "why": "Kyro 說 I have a little fish：他養一條小魚。"},
+    {"kind": "picopts",
+     "talk": [["b", "This is my favorite toy. It is round and orange. I play with it in the park with Kane every Sunday. It can go up very high."]],
+     "q": "What is Kyro's favorite toy?",
+     "pics": [{"type": "object", "obj": "car", "color": "orange"}, {"type": "object", "obj": "ball", "color": "orange"}, {"type": "object", "obj": "book", "color": "orange"}],
+     "labels": ["車子", "球", "書"], "ans": 1,
+     "why": "Kyro 說它是 round（圓的）、orange（橘色），可以在公園玩、彈得很高：是球。"},
+    {"kind": "picopts",
+     "talk": [["g", "Hi, Kane. This is Amy. Our class party is on Friday. Please bring some bananas. I will bring apples and juice. See you at school!"]],
+     "q": "What will Kane bring to the party?",
+     "pics": [{"type": "count", "obj": "banana", "n": 3}, {"type": "count", "obj": "apple", "n": 3}, {"type": "object", "obj": "bottle", "color": "orange"}],
+     "labels": ["香蕉", "蘋果", "果汁"], "ans": 0,
+     "why": "Amy 說 Please bring some bananas：Kane 要帶香蕉。蘋果和果汁是 Amy 自己帶。"}
+  ],
+  "read": {
+    "vocab": [
+      {"stem": "The dog is very ____. It wants some food.", "opts": ["tall", "hungry", "purple", "quiet"], "ans": 1,
+       "why": "想要吃東西，是肚子餓：hungry。"},
+      {"stem": "A ____ helps sick people at the hospital.", "opts": ["cook", "teacher", "doctor", "neighbor"], "ans": 2,
+       "why": "在醫院幫助生病的人是醫生：doctor，是學校 LA 的單字。"},
+      {"stem": "Kane ____ soccer every Saturday.", "opts": ["play", "playing", "to play", "plays"], "ans": 3,
+       "why": "Kane 是一個人（他），動詞要加 s：plays。"}
+    ],
+    "cloze": {
+      "passage": "Dear Grandma, How are you? I am in Taitung with my family. It is sunny and hot today. There {1} many birds at the beach. I have {2} orange hat. It is new. I miss you! Love, Kyro",
+      "items": [
+        {"opts": ["is", "am", "are", "be"], "ans": 2, "why": "many birds 是很多隻，用 There are。"},
+        {"opts": ["a", "an", "two", "many"], "ans": 1, "why": "orange 開頭是母音 o，要用 an：an orange hat。"}
+      ]
+    },
+    "text": {
+      "genre": "notice", "intro": "讀下面的公告，回答三個問題。",
+      "title": "Library Notice",
+      "lines": ["The school library is closed on Monday.", "You can borrow two books at a time.", "Please be quiet in the library.", "No food or drinks, please."],
+      "items": [
+        {"stem": "When is the library closed?", "opts": ["On Sunday.", "On Friday.", "On Tuesday.", "On Monday."], "ans": 3,
+         "why": "公告第一句：closed on Monday，星期一不開。"},
+        {"stem": "How many books can you borrow at a time?", "opts": ["Two.", "Three.", "Four.", "Five."], "ans": 0,
+         "why": "公告說 You can borrow two books at a time：一次可以借兩本。"},
+        {"stem": "What can't you do in the library?", "opts": ["Read books.", "Sit down.", "Eat food.", "Borrow books."], "ans": 2,
+         "why": "公告說 No food or drinks：圖書館裡不能吃東西、喝飲料。"}
+      ]
+    }
+  },
+  "write": [
+    {"kind": "rewrite", "instr": "把句子改成問句（is 放到最前面）。", "prompt": "Kane is tall.", "needQ": true,
+     "accept": ["is kane tall"], "model": "Is Kane tall?",
+     "near": [["^kane is tall$", "問句要把 is 放到最前面。"], ["^is kane$", "後面還要加 tall。"]],
+     "hints": ["把 Is 放到句子最前面，句尾用問號。", "Is Kane ___?"]},
+    {"kind": "combine", "instr": "用 or 把兩句合成一句。", "prompt": ["Do you want milk?", "Do you want juice?"], "word": "or", "needQ": true,
+     "accept": ["do you want milk or juice"], "model": "Do you want milk or juice?",
+     "near": [["milk and juice", "這裡是問要選哪一個，要用 or，不是 and。"], ["^do you want milk or do you want juice$", "後面的 do you want 可以省略：Do you want milk or juice?"]],
+     "hints": ["兩句前面一樣，只要說一次 Do you want。", "Do you want milk ___ juice?"]},
+    {"kind": "order", "instr": "依照順序點字卡，排成一句話。", "words": ["is", "under", "The", "tree.", "dog", "the"], "ans": "The dog is under the tree.",
+     "hints": ["大寫字母開頭的字放第一個，有句點的字放最後。", "The dog is ..."]},
+    {"kind": "picture", "instr": "看三張圖，把句子寫完。",
+     "panels": [{"type": "price", "obj": "book", "color": "blue", "amount": 60}, {"type": "weather", "w": "sunny"}, {"type": "calendar", "mon": "NOV", "day": 20, "wd": "FRIDAY"}],
+     "lines": [
+       {"pre": "The book is", "post": "dollars.", "accept": ["sixty", "60"], "model": "sixty"},
+       {"pre": "It is", "post": "today.", "accept": ["sunny"], "model": "sunny"},
+       {"pre": "Today is", "post": ".", "accept": ["friday"], "model": "Friday"}
+     ],
+     "hints": ["看標價：$60 是 sixty。", "太陽出來是 sunny；日曆上寫 FRIDAY，星期五是 Friday。"]}
+  ]
+}
