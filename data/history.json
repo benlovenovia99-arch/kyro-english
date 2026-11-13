@@ -122,5 +122,68 @@
    "Do you want milk? Do you want juice?",
    "The dog is under the tree."
   ]
+ },
+ {
+  "date": "2026-11-14",
+  "no": 3,
+  "focus": "今天的重點：聽標價的數字、看日曆說星期幾、Who…?、Do you…?、看行程表找時間和地點、can 問句、用 and 連接。",
+  "pictures": [
+   "price:cup",
+   "calendar"
+  ],
+  "questions": [
+   "Who is that man, Kyro?",
+   "Do you like grapes, Kyro?",
+   "What does Kyro like to do?",
+   "What does Mom give Kane?",
+   "What is Amy's pet?",
+   "What will the class draw?"
+  ],
+  "vocabAnswers": [
+   "dark",
+   "neighbor",
+   "Her"
+  ],
+  "clozeAnswers": [
+   "dogs",
+   "can"
+  ],
+  "textGenre": "schedule",
+  "rewrite": "Kyro can ride a bike. → Can Kyro ride a bike?",
+  "combine": "and",
+  "order": "My mom is a nurse.",
+  "writePanels": [
+   "clock",
+   "count:egg",
+   "object:cup"
+  ],
+  "texts": [
+   "How much is the cup?",
+   "What day is it today?",
+   "Who is that man, Kyro?",
+   "Do you like grapes, Kyro?",
+   "What does Kyro like to do?",
+   "Kyro, what do you like to do after school?",
+   "I like to draw. I draw cats and dogs.",
+   "Cool! I like to sing.",
+   "What does Mom give Kane?",
+   "Happy birthday, Kane! This is for you.",
+   "Wow, a new book! Thank you, Mom.",
+   "You're welcome.",
+   "What is Amy's pet?",
+   "Hi, I am Amy. I am eight years old. I have a pet at home. It is small and green. It can jump and swim. It likes to sit in the water.",
+   "What will the class draw?",
+   "Good morning, class. Today we have art. Please take out a red pencil. We will draw a big red apple. Put your bags under your desks.",
+   "I can't see. It is too ____ in the room.",
+   "Mr. Wang lives next to us. He is our ____.",
+   "This is my sister. ____ name is Amy.",
+   "Tom is my friend. He has two {1}, Max and Bo. Max is big and brown. Bo is small and white. Bo {2} run very fast. They play in the park every day. I like them very much.",
+   "What time is the swimming class? | Kyro's Saturday",
+   "Where does Kyro eat lunch? | Kyro's Saturday",
+   "Who does Kyro play with in the park? | Kyro's Saturday",
+   "Kyro can ride a bike.",
+   "Amy is happy. Amy is kind.",
+   "My mom is a nurse."
+  ]
  }
 ]
