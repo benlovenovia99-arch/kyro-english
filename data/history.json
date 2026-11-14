@@ -185,5 +185,67 @@
    "Amy is happy. Amy is kind.",
    "My mom is a nurse."
   ]
+ },
+ {
+  "date": "2026-11-15",
+  "no": 4,
+  "focus": "今天的重點：認物品和顏色、看天氣、How many…?、Are you…?、讀邀請卡找時間和地點、can't 否定句、用 but 連接。",
+  "pictures": [
+   "object:umbrella",
+   "weather:cloudy"
+  ],
+  "questions": [
+   "How many books do you have, Kyro?",
+   "Are you hungry, Kyro?",
+   "What does Kyro play?",
+   "How does Kane go to school?",
+   "What do the children need to bring?",
+   "What can Kyro play with at Amy's house?"
+  ],
+  "vocabAnswers": [
+   "coat",
+   "library",
+   "am"
+  ],
+  "clozeAnswers": [
+   "has",
+   "in"
+  ],
+  "textGenre": "card",
+  "rewrite": "Tom can play the piano. → Tom can't play the piano.",
+  "combine": "but",
+  "order": "Is this your red bag?",
+  "writePanels": [
+   "weather:rainy",
+   "price:pencil",
+   "position:frog:on-box"
+  ],
+  "texts": [
+   "What is this?",
+   "How is the weather today?",
+   "How many books do you have, Kyro?",
+   "Are you hungry, Kyro?",
+   "What does Kyro play?",
+   "Kyro, do you play basketball?",
+   "No, I don't. I play soccer with Kane.",
+   "That sounds fun!",
+   "How does Kane go to school?",
+   "Kane, how do you go to school?",
+   "I take the bus. Dad takes Kyro by car.",
+   "What do the children need to bring?",
+   "Hello, everyone. The school zoo trip is on Monday. Please bring a hat and a bottle of water. Do not bring toys. We will see birds, fish, and frogs.",
+   "What can Kyro play with at Amy's house?",
+   "Hi, Kyro. This is Amy. Can you come to my house on Sunday? We can play with my new cat. She is white and very soft. Call me, please.",
+   "It is very cold today. Please put on your ____.",
+   "We read and borrow books at the ____.",
+   "I ____ a student at Sunny School.",
+   "Dear Tom, Thank you for the card. I like it very much. My dog Lucky {1} a new ball. It is blue and small. Lucky likes to run {2} the garden. Please come and see us! Your friend, Kyro",
+   "What time does the party start? | Birthday Party!",
+   "Where is the party? | Birthday Party!",
+   "What will they eat at the party? | Birthday Party!",
+   "Tom can play the piano.",
+   "Kane is tall. Kyro is short.",
+   "Is this your red bag?"
+  ]
  }
 ]
