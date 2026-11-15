@@ -247,5 +247,67 @@
    "Kane is tall. Kyro is short.",
    "Is this your red bag?"
   ]
+ },
+ {
+  "date": "2026-11-16",
+  "no": 5,
+  "focus": "今天的重點：看時鐘說幾點十五分、數花朵、When…?、Is this…?、讀媽媽的留言找地點和時間、Do 開頭的問句、用 or 連接。",
+  "pictures": [
+   "clock",
+   "count:flower"
+  ],
+  "questions": [
+   "When is your birthday, Kyro?",
+   "Is this your cup, Kyro?",
+   "What will Kyro take?",
+   "What does Kyro have in his bag?",
+   "Which one is Amy's pet?",
+   "What does Kyro get from Grandma?"
+  ],
+  "vocabAnswers": [
+   "tired",
+   "hide",
+   "can"
+  ],
+  "clozeAnswers": [
+   "gives",
+   "a"
+  ],
+  "textGenre": "message",
+  "rewrite": "You like oranges. → Do you like oranges?",
+  "combine": "or",
+  "order": "The bird can sing well.",
+  "writePanels": [
+   "clock",
+   "count:cat",
+   "position:ball:under-table"
+  ],
+  "texts": [
+   "What time does the clock say?",
+   "How many flowers can you see?",
+   "When is your birthday, Kyro?",
+   "Is this your cup, Kyro?",
+   "What will Kyro take?",
+   "Kyro, look outside. It's raining.",
+   "Oh no! Can I take my blue umbrella?",
+   "Yes, you can. Wear your boots, too.",
+   "What does Kyro have in his bag?",
+   "Kyro, what do you have in your school bag?",
+   "I have two books and a pencil box.",
+   "Which one is Amy's pet?",
+   "Hi, I'm Amy. I am eight years old. I have a pet bird. It is small and yellow. It can sing every morning. I love my bird very much.",
+   "What does Kyro get from Grandma?",
+   "This is my new bag from Grandma. It is green and big. I can put my books and my lunch in it. I take it to school every day.",
+   "Kyro wants to go to bed. He is very ____.",
+   "A turtle can ____ in its shell. Then it is safe.",
+   "Birds ____ fly in the sky.",
+   "Dear Diary, It is Sunday. Mom, Kane, and I go to the park. The park is big and green. There are many ducks in the water. Kane {1} bread to the ducks. I see {2} red bird in a tree. It sings a song. I am very happy today.",
+   "Where is Mom now? | A Message from Mom",
+   "What time should Kyro feed the fish? | A Message from Mom",
+   "Where is Kyro's snack? | A Message from Mom",
+   "You like oranges.",
+   "Is your bag red? Is your bag blue?",
+   "The bird can sing well."
+  ]
  }
 ]

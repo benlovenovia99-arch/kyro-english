@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-16",
+  "no": 5,
+  "focus": "今天的重點：看時鐘說幾點十五分、數花朵、When…?、Is this…?、讀媽媽的留言找地點和時間、Do 開頭的問句、用 or 連接。",
+  "notes": [
+    "聽力第 1 題：seven fifteen 是七點十五分，可以拿家裡的時鐘再考 Kyro 幾個「十五分」。第 3 題 When 問「什麼時候」，要回答時間（in May），不是年齡。",
+    "閱讀第 3 題練 can 後面接原形動詞（Birds can fly）；段落填空第 1 格練第三人稱 gives（Kane gives）。",
+    "寫作第 1 題：句子裡沒有 be 動詞時，問句要在前面加 Do；第 2 題二選一的問句用 or，句尾是問號。"
+  ],
+  "listen": [
+    {"kind": "picaudio", "pic": {"type": "clock", "h": 7, "m": 15},
+     "q": "What time does the clock say?",
+     "opts": ["It's seven thirty.", "It's six fifteen.", "It's seven fifteen."], "ans": 2,
+     "why": "短針在 7、長針指著 3，是七點十五分：seven fifteen。seven thirty 是七點半。"},
+    {"kind": "picaudio", "pic": {"type": "count", "obj": "flower", "color": "pink", "n": 5},
+     "q": "How many flowers can you see?",
+     "opts": ["I can see five flowers.", "I can see four flowers.", "I can see nine flowers."], "ans": 0,
+     "why": "圖上有五朵粉紅色的花：five flowers。"},
+    {"kind": "audioq", "talk": [["w", "When is your birthday, Kyro?"]],
+     "opts": ["I am eight.", "It's in May.", "It's a big cake."], "ans": 1,
+     "why": "When 問「什麼時候」，要回答時間：It's in May（在五月）。I am eight 是回答年齡。"},
+    {"kind": "audioq", "talk": [["m", "Is this your cup, Kyro?"]],
+     "opts": ["It is very hot.", "I like milk.", "No, it isn't. It's Kane's."], "ans": 2,
+     "why": "Is this your…? 要用 Yes, it is. 或 No, it isn't. 回答。這個杯子是 Kane 的。"},
+    {"kind": "dialog", "talk": [["w", "Kyro, look outside. It's raining."], ["b", "Oh no! Can I take my blue umbrella?"], ["w", "Yes, you can. Wear your boots, too."]],
+     "q": "What will Kyro take?",
+     "opts": ["His blue umbrella.", "His red hat.", "His green bag."], "ans": 0,
+     "why": "外面在下雨，Kyro 問 Can I take my blue umbrella?，他要帶藍色的雨傘。"},
+    {"kind": "dialog", "talk": [["m", "Kyro, what do you have in your school bag?"], ["b", "I have two books and a pencil box."]],
+     "q": "What does Kyro have in his bag?",
+     "opts": ["Two cups and a ball.", "Two books and a pencil box.", "A cake and an apple."], "ans": 1,
+     "why": "Kyro 說 I have two books and a pencil box：兩本書和一個鉛筆盒。"},
+    {"kind": "picopts",
+     "talk": [["g", "Hi, I'm Amy. I am eight years old. I have a pet bird. It is small and yellow. It can sing every morning. I love my bird very much."]],
+     "q": "Which one is Amy's pet?",
+     "pics": [{"type": "object", "obj": "bird", "color": "yellow"}, {"type": "object", "obj": "fish", "color": "orange"}, {"type": "object", "obj": "dog", "color": "brown"}],
+     "labels": ["黃色小鳥", "魚", "狗"], "ans": 0,
+     "why": "Amy 的自我介紹說 I have a pet bird. It is small and yellow：她養一隻黃色的小鳥。"},
+    {"kind": "picopts",
+     "talk": [["b", "This is my new bag from Grandma. It is green and big. I can put my books and my lunch in it. I take it to school every day."]],
+     "q": "What does Kyro get from Grandma?",
+     "pics": [{"type": "object", "obj": "hat", "color": "green"}, {"type": "object", "obj": "box", "color": "brown"}, {"type": "object", "obj": "bag", "color": "green"}],
+     "labels": ["帽子", "箱子", "書包"], "ans": 2,
+     "why": "Kyro 說 This is my new bag from Grandma：奶奶送他一個綠色的大書包，可以放書和午餐。"}
+  ],
+  "read": {
+    "vocab": [
+      {"stem": "Kyro wants to go to bed. He is very ____.", "opts": ["thirsty", "short", "tired", "green"], "ans": 2,
+       "why": "想去睡覺，是因為很累：tired。"},
+      {"stem": "A turtle can ____ in its shell. Then it is safe.", "opts": ["hide", "sing", "cook", "read"], "ans": 0,
+       "why": "烏龜躲進殼裡就安全了：hide（躲藏），是學校 LA 的單字。"},
+      {"stem": "Birds ____ fly in the sky.", "opts": ["is", "has", "am", "can"], "ans": 3,
+       "why": "鳥「會」飛：can fly。can 後面的動詞用原形。"}
+    ],
+    "cloze": {
+      "passage": "Dear Diary, It is Sunday. Mom, Kane, and I go to the park. The park is big and green. There are many ducks in the water. Kane {1} bread to the ducks. I see {2} red bird in a tree. It sings a song. I am very happy today.",
+      "items": [
+        {"opts": ["give", "gives", "giving", "to give"], "ans": 1, "why": "Kane 是一個人（他），動詞要加 s：Kane gives bread。"},
+        {"opts": ["an", "some", "many", "a"], "ans": 3, "why": "一隻鳥，red 是子音開頭，用 a：a red bird。"}
+      ]
+    },
+    "text": {
+      "genre": "message", "intro": "讀下面媽媽留給 Kyro 的留言，回答三個問題。",
+      "title": "A Message from Mom",
+      "lines": ["Kyro,", "I am at Grandma's house.", "Please feed the fish at 5:00.", "Your snack is on the table.", "Dad comes home at 6:00."],
+      "signoff": "Love,", "from": "Mom",
+      "items": [
+        {"stem": "Where is Mom now?", "opts": ["At Grandma's house.", "At school.", "At the park.", "At the zoo."], "ans": 0,
+         "why": "留言第一句 I am at Grandma's house：媽媽在奶奶家。"},
+        {"stem": "What time should Kyro feed the fish?", "opts": ["At 6:00.", "At 3:00.", "At 5:00.", "At 7:00."], "ans": 2,
+         "why": "留言寫 Please feed the fish at 5:00：五點餵魚。6:00 是爸爸回家的時間。"},
+        {"stem": "Where is Kyro's snack?", "opts": ["In the box.", "On the table.", "Under the chair.", "In his bag."], "ans": 1,
+         "why": "留言寫 Your snack is on the table：點心在桌子上。"}
+      ]
+    }
+  },
+  "write": [
+    {"kind": "rewrite", "instr": "把句子改成問句（句子沒有 is、am、are，要在最前面加 Do）。", "prompt": "You like oranges.", "needQ": true,
+     "accept": ["do you like oranges"], "model": "Do you like oranges?",
+     "near": [["^you like oranges$", "問句要在最前面加 Do：Do you like oranges?"], ["^are you", "這句沒有 be 動詞，要用 Do 開頭，不是 Are。"], ["^does you", "主詞是 you，要用 Do，不是 Does。"], ["likes", "Do 問句後面的動詞不加 s：like。"]],
+     "hints": ["在句子最前面加 Do，句尾改成問號。", "Do you ___ oranges?"]},
+    {"kind": "combine", "instr": "用 or 把兩個問句合成一句。", "prompt": ["Is your bag red?", "Is your bag blue?"], "word": "or", "needQ": true,
+     "accept": ["is your bag red or blue", "is your bag red or is it blue", "is your bag red or is your bag blue"], "model": "Is your bag red or blue?",
+     "near": [["\\band\\b", "要問「哪一個」，用 or，不是 and。"], ["^is your bag red blue$", "兩個顏色中間要加 or。"]],
+     "hints": ["兩個問句只有顏色不一樣，用 or 把兩個顏色連起來。", "Is your bag red ___ blue?"]},
+    {"kind": "order", "instr": "依照順序點字卡，排成一句話。", "words": ["sing", "The", "well.", "can", "bird"], "ans": "The bird can sing well.",
+     "hints": ["大寫字母開頭的字放第一個，有句點的字放最後。", "The bird can ..."]},
+    {"kind": "picture", "instr": "看三張圖，把句子寫完。",
+     "panels": [{"type": "clock", "h": 3, "m": 30}, {"type": "count", "obj": "cat", "color": "gray", "n": 4}, {"type": "position", "obj": "ball", "color": "blue", "rel": "under", "ref": "table"}],
+     "lines": [
+       {"pre": "It is", "post": "now.", "accept": ["three thirty", "3 30", "half past three"], "model": "three thirty"},
+       {"pre": "I can see", "post": "cats.", "accept": ["four", "4"], "model": "four"},
+       {"pre": "The ball is", "post": "the table.", "accept": ["under"], "model": "under"}
+     ],
+     "hints": ["時鐘短針在 3 和 4 中間、長針指 6：three thirty；圖上有四隻貓：four。", "球在桌子的下面：under。"]}
+  ]
+}
