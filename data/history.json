@@ -309,5 +309,67 @@
    "Is your bag red? Is your bag blue?",
    "The bird can sing well."
   ]
+ },
+ {
+  "date": "2026-11-17",
+  "no": 6,
+  "focus": "今天的重點：聽標價（fifty 和 fifteen）、next to、What time…?、What do you…?、讀便條找地點和時間、There is 問句、用 and 連接。",
+  "pictures": [
+   "price:hat",
+   "position:dog:next to-chair"
+  ],
+  "questions": [
+   "What time do you get up, Kyro?",
+   "What do you want for lunch, Kyro?",
+   "Who is coming today?",
+   "What animal do they see?",
+   "What should the class take out?",
+   "What is Uncle Tom's gift?"
+  ],
+  "vocabAnswers": [
+   "dinner",
+   "insects",
+   "is"
+  ],
+  "clozeAnswers": [
+   "cows",
+   "He"
+  ],
+  "textGenre": "note",
+  "rewrite": "There is a dog in the park. → Is there a dog in the park?",
+  "combine": "and",
+  "order": "My house is very big.",
+  "writePanels": [
+   "calendar",
+   "weather:windy",
+   "count:banana"
+  ],
+  "texts": [
+   "How much is the red hat?",
+   "Where is the brown dog?",
+   "What time do you get up, Kyro?",
+   "What do you want for lunch, Kyro?",
+   "Who is coming today?",
+   "Kyro, Grandpa is coming today!",
+   "Great! Is Grandma coming, too?",
+   "Yes. They are coming at four.",
+   "What animal do they see?",
+   "Kyro, look at that animal. It has a long neck.",
+   "It's a giraffe! It eats leaves.",
+   "What should the class take out?",
+   "Good morning, class. Please take out your books. Open your book to page ten. Look at the picture. Can you see the orange cat? Let's read about it.",
+   "What is Uncle Tom's gift?",
+   "Hi, Kyro. This is Uncle Tom. I have a gift for you. It is a big red ball. You can play with it in the park. See you on Saturday!",
+   "We eat ____ at night with the family.",
+   "Bees and ants are small ____. They have six legs.",
+   "There ____ a cat on the bed.",
+   "Dear Kane, I am at the farm with Grandpa. The farm is very big. There are four {1} and two pigs. The cows are black and white. Grandpa gives me fresh milk every morning. {2} is very kind. See you soon! Love, Kyro",
+   "Where is the soccer ball? | A Note for Kane",
+   "Where is Kyro now? | A Note for Kane",
+   "What time will Kyro be home? | A Note for Kane",
+   "There is a dog in the park.",
+   "Kyro likes apples. Kyro likes bananas.",
+   "My house is very big."
+  ]
  }
 ]

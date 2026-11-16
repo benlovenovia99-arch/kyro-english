@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-17",
+  "no": 6,
+  "focus": "今天的重點：聽標價（fifty 和 fifteen）、next to、What time…?、What do you…?、讀便條找地點和時間、There is 問句、用 and 連接。",
+  "notes": [
+    "聽力第 1 題：fifty（50）和 fifteen（15）發音很像，fifteen 尾巴拉長、重音在後面。可以在家輪流唸給 Kyro 聽、請他比數字。",
+    "閱讀第 3 題練 There is（一個）和 There are（很多個）；段落填空第 1 格練複數 cows，第 2 格練代名詞 He（指 Grandpa）。",
+    "寫作第 1 題：There is 的句子改問句，把 is 搬到最前面：Is there…?；第 2 題兩件都喜歡用 and。"
+  ],
+  "listen": [
+    {"kind": "picaudio", "pic": {"type": "price", "obj": "hat", "color": "red", "amount": 50},
+     "q": "How much is the red hat?",
+     "opts": ["It's fifteen dollars.", "It's fifty dollars.", "It's five dollars."], "ans": 1,
+     "why": "標價是 $50：fifty dollars。fifteen 是 15，five 是 5。"},
+    {"kind": "picaudio", "pic": {"type": "position", "obj": "dog", "color": "brown", "rel": "next to", "ref": "chair"},
+     "q": "Where is the brown dog?",
+     "opts": ["It's under the chair.", "It's on the chair.", "It's next to the chair."], "ans": 2,
+     "why": "小狗坐在椅子的旁邊：next to the chair。"},
+    {"kind": "audioq", "talk": [["m", "What time do you get up, Kyro?"]],
+     "opts": ["At seven o'clock.", "In the kitchen.", "Yes, I do."], "ans": 0,
+     "why": "What time 問「幾點」，要回答時間：At seven o'clock（七點）。In the kitchen 是地點。"},
+    {"kind": "audioq", "talk": [["w", "What do you want for lunch, Kyro?"]],
+     "opts": ["I'm eight.", "Some noodles, please.", "It's on Monday."], "ans": 1,
+     "why": "問午餐想吃什麼，要回答食物：Some noodles, please（請給我麵）。"},
+    {"kind": "dialog", "talk": [["k", "Kyro, Grandpa is coming today!"], ["b", "Great! Is Grandma coming, too?"], ["k", "Yes. They are coming at four."]],
+     "q": "Who is coming today?",
+     "opts": ["Grandpa and Grandma.", "Uncle and Aunt.", "Amy and Tom."], "ans": 0,
+     "why": "Kane 說爺爺要來，Kyro 問奶奶也來嗎，Kane 說 Yes：爺爺和奶奶都會來。"},
+    {"kind": "dialog", "talk": [["g", "Kyro, look at that animal. It has a long neck."], ["b", "It's a giraffe! It eats leaves."]],
+     "q": "What animal do they see?",
+     "opts": ["A monkey.", "A tiger.", "A giraffe."], "ans": 2,
+     "why": "脖子很長的動物，Kyro 說 It's a giraffe：長頸鹿。"},
+    {"kind": "picopts",
+     "talk": [["w", "Good morning, class. Please take out your books. Open your book to page ten. Look at the picture. Can you see the orange cat? Let's read about it."]],
+     "q": "What should the class take out?",
+     "pics": [{"type": "object", "obj": "cat", "color": "orange"}, {"type": "object", "obj": "book", "color": "blue"}, {"type": "object", "obj": "pencil", "color": "yellow"}],
+     "labels": ["貓", "書", "鉛筆"], "ans": 1,
+     "why": "老師說 Please take out your books：請拿出課本。橘色的貓是書上的圖。"},
+    {"kind": "picopts",
+     "talk": [["m", "Hi, Kyro. This is Uncle Tom. I have a gift for you. It is a big red ball. You can play with it in the park. See you on Saturday!"]],
+     "q": "What is Uncle Tom's gift?",
+     "pics": [{"type": "object", "obj": "car", "color": "red"}, {"type": "object", "obj": "cake", "color": "pink"}, {"type": "object", "obj": "ball", "color": "red"}],
+     "labels": ["玩具車", "蛋糕", "球"], "ans": 2,
+     "why": "電話留言說 It is a big red ball：禮物是一顆紅色的大球。"}
+  ],
+  "read": {
+    "vocab": [
+      {"stem": "We eat ____ at night with the family.", "opts": ["dinner", "breakfast", "shoes", "rain"], "ans": 0,
+       "why": "晚上和家人一起吃的是晚餐：dinner。breakfast 是早餐。"},
+      {"stem": "Bees and ants are small ____. They have six legs.", "opts": ["birds", "fish", "insects", "cats"], "ans": 2,
+       "why": "蜜蜂和螞蟻有六隻腳，是昆蟲：insects，是學校 LA 的單字。"},
+      {"stem": "There ____ a cat on the bed.", "opts": ["are", "is", "am", "be"], "ans": 1,
+       "why": "a cat 是一隻，用 There is。很多隻才用 There are。"}
+    ],
+    "cloze": {
+      "passage": "Dear Kane, I am at the farm with Grandpa. The farm is very big. There are four {1} and two pigs. The cows are black and white. Grandpa gives me fresh milk every morning. {2} is very kind. See you soon! Love, Kyro",
+      "items": [
+        {"opts": ["cow", "a cow", "an cow", "cows"], "ans": 3, "why": "four 是四隻，要用複數：four cows。"},
+        {"opts": ["He", "She", "They", "It"], "ans": 0, "why": "這裡說的是 Grandpa（爺爺），男生用 He。"}
+      ]
+    },
+    "text": {
+      "genre": "note", "intro": "讀下面 Kyro 留給哥哥 Kane 的便條，回答三個問題。",
+      "title": "A Note for Kane",
+      "lines": ["Kane,", "I have your soccer ball.", "It is under my bed.", "I am at Tom's house now.", "I will be home at 4:30."],
+      "signoff": "Thanks,", "from": "Kyro",
+      "items": [
+        {"stem": "Where is the soccer ball?", "opts": ["On the table.", "In the box.", "Under Kyro's bed.", "In the park."], "ans": 2,
+         "why": "便條寫 It is under my bed：球在 Kyro 的床底下。"},
+        {"stem": "Where is Kyro now?", "opts": ["At school.", "At Tom's house.", "At the library.", "At the zoo."], "ans": 1,
+         "why": "便條寫 I am at Tom's house now：Kyro 現在在 Tom 家。"},
+        {"stem": "What time will Kyro be home?", "opts": ["At 4:00.", "At 3:30.", "At 5:30.", "At 4:30."], "ans": 3,
+         "why": "便條寫 I will be home at 4:30：四點半回家。"}
+      ]
+    }
+  },
+  "write": [
+    {"kind": "rewrite", "instr": "把句子改成問句（把 is 搬到 there 前面）。", "prompt": "There is a dog in the park.", "needQ": true,
+     "accept": ["is there a dog in the park"], "model": "Is there a dog in the park?",
+     "near": [["^there is a dog in the park$", "問句要把 is 搬到最前面：Is there…?"], ["^are there", "a dog 只有一隻，用 Is there，不是 Are there。"], ["^is there is", "is 已經搬到前面了，後面不要再寫 is。"]],
+     "hints": ["把 is 放到句子最前面，句尾改成問號。", "Is there a ___ in the park?"]},
+    {"kind": "combine", "instr": "用 and 把兩個句子合成一句。", "prompt": ["Kyro likes apples.", "Kyro likes bananas."], "word": "and", "needQ": false,
+     "accept": ["kyro likes apples and bananas", "kyro likes apples and he likes bananas", "kyro likes apples and kyro likes bananas"], "model": "Kyro likes apples and bananas.",
+     "near": [["\\bbut\\b", "兩樣都喜歡，用 and，不是 but。"], ["\\bor\\b", "兩樣都喜歡，用 and，不是 or。"], ["^kyro likes apples bananas$", "兩樣水果中間要加 and。"], ["kyro like apples", "Kyro 是一個人，like 要加 s：likes。"]],
+     "hints": ["兩句只有水果不一樣，用 and 把兩種水果連起來。", "Kyro likes apples ___ bananas."]},
+    {"kind": "order", "instr": "依照順序點字卡，排成一句話。", "words": ["very", "My", "big.", "is", "house"], "ans": "My house is very big.",
+     "hints": ["大寫字母開頭的字放第一個，有句點的字放最後。", "My house is ..."]},
+    {"kind": "picture", "instr": "看三張圖，把句子寫完。",
+     "panels": [{"type": "calendar", "mon": "DEC", "day": 3, "wd": "THURSDAY"}, {"type": "weather", "w": "windy"}, {"type": "count", "obj": "banana", "color": "yellow", "n": 6}],
+     "lines": [
+       {"pre": "My party is on", "post": ".", "accept": ["thursday"], "model": "Thursday"},
+       {"pre": "Look! It is very", "post": "outside.", "accept": ["windy"], "model": "windy"},
+       {"pre": "There are", "post": "bananas.", "accept": ["six", "6"], "model": "six"}
+     ],
+     "hints": ["日曆上寫 THURSDAY，星期四是 Thursday；風很大是 windy。", "圖上有六根香蕉：six。"]}
+  ]
+}
