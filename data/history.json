@@ -371,5 +371,67 @@
    "Kyro likes apples. Kyro likes bananas.",
    "My house is very big."
   ]
+ },
+ {
+  "date": "2026-11-18",
+  "no": 7,
+  "focus": "今天的重點：看時鐘說幾點四十五分、聽顏色、Can you…?、What color…?、讀菜單找價錢和時間、現在進行式 is + -ing、用 but 連接。",
+  "pictures": [
+   "clock",
+   "object:bag"
+  ],
+  "questions": [
+   "Can you jump rope, Kyro?",
+   "What color are your shoes, Kyro?",
+   "What is the weather like this morning?",
+   "Who does Kyro play basketball with?",
+   "What should the children bring tomorrow?",
+   "Which one is Kyro's toy?"
+  ],
+  "vocabAnswers": [
+   "teeth",
+   "nurse",
+   "an"
+  ],
+  "clozeAnswers": [
+   "play",
+   "under"
+  ],
+  "textGenre": "menu",
+  "rewrite": "Kane reads a book. → Kane is reading a book.",
+  "combine": "but",
+  "order": "Kyro is at the park.",
+  "writePanels": [
+   "object:flower",
+   "clock",
+   "position:bird:in-tree"
+  ],
+  "texts": [
+   "What time does the clock show?",
+   "What color is the bag?",
+   "Can you jump rope, Kyro?",
+   "What color are your shoes, Kyro?",
+   "What is the weather like this morning?",
+   "Kyro, it's cold and rainy today.",
+   "Can I wear my yellow raincoat, Dad?",
+   "Yes. And take your umbrella, too.",
+   "Who does Kyro play basketball with?",
+   "Kyro, do you like basketball?",
+   "Yes! I play basketball with Kane every Sunday.",
+   "What should the children bring tomorrow?",
+   "Hello, everyone. Tomorrow is our park day. Please bring a hat. It will be hot and sunny. We will meet at the school gate at nine.",
+   "Which one is Kyro's toy?",
+   "This is my favorite toy. It is small and blue. It has four wheels. I can push it on the floor. It goes very fast. Kane has one, too.",
+   "I brush my ____ every morning and night.",
+   "A ____ helps sick people in the hospital.",
+   "I eat ____ egg every morning.",
+   "Dear Amy, Hello from Kenting! The sea is blue and the sun is hot. Kane and I {1} on the beach every day. We find many small shells. There is a big crab {2} a rock. It is red. See you next week! Kyro",
+   "How much is the corn soup? | Happy Noodle House",
+   "What drink can you buy here? | Happy Noodle House",
+   "What time does the shop open? | Happy Noodle House",
+   "Kane reads a book.",
+   "Kyro can swim. Kane can't swim.",
+   "Kyro is at the park."
+  ]
  }
 ]
