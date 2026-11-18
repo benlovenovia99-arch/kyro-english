@@ -433,5 +433,67 @@
    "Kyro can swim. Kane can't swim.",
    "Kyro is at the park."
   ]
+ },
+ {
+  "date": "2026-11-19",
+  "no": 8,
+  "focus": "今天的重點：看日曆分清 Tuesday 和 Thursday、看天氣、Where…?、How old…?、讀公告找時間和地點、is not 否定句、用 or 連接問句。",
+  "pictures": [
+   "calendar",
+   "weather:sunny"
+  ],
+  "questions": [
+   "Where do you read books, Kyro?",
+   "How old is your grandma, Kyro?",
+   "What time is Kyro's art class?",
+   "What does Kyro want to eat?",
+   "Which fruit does Lily like best?",
+   "What does the teacher want the class to take?"
+  ],
+  "vocabAnswers": [
+   "wet",
+   "shape",
+   "on"
+  ],
+  "clozeAnswers": [
+   "near",
+   "drinks"
+  ],
+  "textGenre": "notice",
+  "rewrite": "The soup is hot. → The soup is not hot.",
+  "combine": "or",
+  "order": "Kane has a new bike.",
+  "writePanels": [
+   "price:ball",
+   "count:star",
+   "position:book:on-chair"
+  ],
+  "texts": [
+   "What day is on the calendar?",
+   "How is the weather outside?",
+   "Where do you read books, Kyro?",
+   "How old is your grandma, Kyro?",
+   "What time is Kyro's art class?",
+   "Kyro, what time is your art class?",
+   "It's at two o'clock, Dad.",
+   "OK. I can take you there.",
+   "What does Kyro want to eat?",
+   "Kyro, do you want some noodles?",
+   "No, thanks. I want rice and soup.",
+   "Which fruit does Lily like best?",
+   "Hi, I'm Lily. I am in second grade. I love fruit. My favorite fruit is yellow and long. I eat one after lunch every day.",
+   "What does the teacher want the class to take?",
+   "Hello, class. We will go to the park after lunch. It is hot today. Please take your water bottle. You do not need your bag or your book.",
+   "It is raining. My shoes are ____.",
+   "A circle is a round ____.",
+   "We do not go to school ____ Sunday.",
+   "Mimi is a small gray cat. She lives in a house {1} a big tree. Every morning, she {2} milk from a blue cup. Then she sits by the window and looks at the birds. She is a happy cat.",
+   "What day is the book sale? | School Book Sale",
+   "Where is the book sale? | School Book Sale",
+   "What should you bring to the sale? | School Book Sale",
+   "The soup is hot.",
+   "Is Tom at home? Is Tom at school?",
+   "Kane has a new bike."
+  ]
  }
 ]
