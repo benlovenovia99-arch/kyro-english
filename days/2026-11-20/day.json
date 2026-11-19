@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-20",
+  "no": 9,
+  "focus": "今天的重點：聽位置 under、數數量、Who…?、Do you…?、讀作息表找時間和地點、Is 開頭的問句、用 and 連接。",
+  "notes": [
+    "聽力第 1 題：on（在上面）、under（在下面）、next to（在旁邊）三個位置一起出現，可以拿家裡的桌子和玩具，請 Kyro 邊放邊說。",
+    "閱讀段落填空第 1 格：主詞是 Kane and I（兩個人），動詞不加 s：swim。可以和昨天的 she drinks 對照。",
+    "寫作第 1 題：把 is 搬到句子最前面，句尾改成問號；看圖寫句第 1 行 7:30 可以寫 seven thirty。"
+  ],
+  "listen": [
+    {"kind": "picaudio", "pic": {"type": "position", "obj": "cat", "color": "gray", "rel": "under", "ref": "table"},
+     "q": "Where is the gray cat?",
+     "opts": ["It's on the table.", "It's next to the table.", "It's under the table."], "ans": 2,
+     "why": "貓咪在桌子的下面：under the table。on 是在上面，next to 是在旁邊。"},
+    {"kind": "picaudio", "pic": {"type": "count", "obj": "apple", "color": "red", "n": 7},
+     "q": "How many red apples are there?",
+     "opts": ["There are seven apples.", "There are eleven apples.", "There are six apples."], "ans": 0,
+     "why": "數一數，有 7 顆蘋果：seven。eleven 是十一，six 是六。"},
+    {"kind": "audioq", "talk": [["w", "Who is your English teacher, Kyro?"]],
+     "opts": ["It's on Monday.", "Ms. Lee is.", "Yes, I am."], "ans": 1,
+     "why": "Who 問「是誰」，要回答一個人：Ms. Lee is（是李老師）。"},
+    {"kind": "audioq", "talk": [["m", "Do you have a pet, Kyro?"]],
+     "opts": ["It's my book.", "At the park.", "Yes, I have a dog."], "ans": 2,
+     "why": "Do you 開頭的問句，用 Yes 或 No 回答：Yes, I have a dog（有，我有一隻狗）。"},
+    {"kind": "dialog", "talk": [["w", "Kyro, we need milk and eggs."], ["b", "Can we get some apples, too?"], ["w", "Sure. Let's buy six apples."]],
+     "q": "How many apples will they buy?",
+     "opts": ["Two apples.", "Six apples.", "Ten apples."], "ans": 1,
+     "why": "媽媽說 Let's buy six apples：要買六顆蘋果。"},
+    {"kind": "dialog", "talk": [["g", "Kyro, who is that boy?"], ["b", "That's Kane. He is my brother."]],
+     "q": "Who is Kane?",
+     "opts": ["Kyro's brother.", "Kyro's teacher.", "Kyro's dad."], "ans": 0,
+     "why": "Kyro 說 He is my brother：Kane 是他的哥哥。"},
+    {"kind": "picopts",
+     "talk": [["m", "Hi, Kyro. It's Dad. I am at the shop. I want to buy a cake for Grandma. Does she like a cake with fruit? Please call me back."]],
+     "q": "What does Dad want to buy for Grandma?",
+     "pics": [{"type": "object", "obj": "flower", "color": "pink"}, {"type": "object", "obj": "cake", "color": "white"}, {"type": "object", "obj": "cup", "color": "blue"}],
+     "labels": ["花", "蛋糕", "杯子"], "ans": 1,
+     "why": "爸爸在電話留言說 I want to buy a cake for Grandma：要買蛋糕給奶奶。"},
+    {"kind": "picopts",
+     "talk": [["g", "I have a new toy. It is round and blue. I can throw it and kick it. I play with it in the park with my dog every day."]],
+     "q": "What is the girl's new toy?",
+     "pics": [{"type": "object", "obj": "car", "color": "red"}, {"type": "object", "obj": "hat", "color": "yellow"}, {"type": "object", "obj": "ball", "color": "blue"}],
+     "labels": ["玩具車", "帽子", "球"], "ans": 2,
+     "why": "她說新玩具 round and blue（圓圓的、藍色），可以丟也可以踢，是藍色的球。"}
+  ],
+  "read": {
+    "vocab": [
+      {"stem": "An elephant is not small. It is very ____.", "opts": ["thin", "big", "wet", "sad"], "ans": 1,
+       "why": "大象不小（not small），所以是很大：big。"},
+      {"stem": "Mr. Chen lives next to us. He is our ____.", "opts": ["doctor", "shape", "neighbor", "habitat"], "ans": 2,
+       "why": "住在我們家隔壁的人是鄰居：neighbor，是學校 LA 的單字。"},
+      {"stem": "Amy is my friend. I like ____ very much.", "opts": ["she", "he", "they", "her"], "ans": 3,
+       "why": "Amy 是女生，放在 like 後面要用 her。she 只能放在句子開頭當主詞。"}
+    ],
+    "cloze": {
+      "passage": "Dear Grandpa, We are at the beach today. The sky is blue and the sun is hot. Kane and I {1} in the water. Dad has a new camera. {2} takes a lot of pictures. See you soon. Love, Kyro",
+      "items": [
+        {"opts": ["swim", "swims", "swimming", "is swim"], "ans": 0, "why": "主詞是 Kane and I（兩個人），動詞不加 s：swim。"},
+        {"opts": ["She", "He", "It", "They"], "ans": 1, "why": "前一句說的是 Dad（爸爸），男生用 He。"}
+      ]
+    },
+    "text": {
+      "genre": "schedule", "intro": "讀下面 Kyro 星期六的作息表，回答三個問題。",
+      "title": "Kyro's Saturday",
+      "lines": ["9:00 Swimming class", "11:00 Lunch at Grandma's house", "2:00 Library with Kane", "4:00 Soccer in the park", "6:00 Dinner at home"],
+      "items": [
+        {"stem": "What does Kyro do at nine?", "opts": ["Eat lunch.", "Go to swimming class.", "Play soccer.", "Eat dinner."], "ans": 1,
+         "why": "作息表第一行：9:00 Swimming class，九點上游泳課。"},
+        {"stem": "Where does Kyro play soccer?", "opts": ["At home.", "At school.", "In the park.", "In the library."], "ans": 2,
+         "why": "4:00 Soccer in the park：在公園踢足球。"},
+        {"stem": "When does Kyro eat dinner?", "opts": ["At nine.", "At eleven.", "At two.", "At six."], "ans": 3,
+         "why": "最後一行 6:00 Dinner at home：六點在家吃晚餐。"}
+      ]
+    }
+  },
+  "write": [
+    {"kind": "rewrite", "instr": "改成問句（⋯⋯嗎？）。", "prompt": "Kane is in the kitchen.", "needQ": true,
+     "accept": ["is kane in the kitchen"], "model": "Is Kane in the kitchen?",
+     "near": [["^kane is in the kitchen", "問句要把 Is 搬到最前面：Is Kane ...?"], ["^(do|does) kane", "有 is 的句子，把 is 搬到前面就好，不用 do/does。"], ["^is kane kitchen", "kitchen 前面要有 in the。"]],
+     "hints": ["把 is 搬到句子最前面，第一個字母要大寫。", "Is Kane ___ the kitchen?"]},
+    {"kind": "combine", "instr": "用 and 把兩個句子合成一句。", "prompt": ["I have a cat.", "I have a dog."], "word": "and", "needQ": false,
+     "accept": ["i have a cat and a dog", "i have a cat and i have a dog"], "model": "I have a cat and a dog.",
+     "near": [["\\bor\\b", "兩個都有，用 and，不是 or。"], ["\\bbut\\b", "兩件事都一樣是「有」，用 and，不是 but。"], ["^i have a cat a dog$", "cat 和 a dog 中間要加 and。"]],
+     "hints": ["兩句都是 I have，只要說一次 I have。", "I have a cat ___ a dog."]},
+    {"kind": "order", "instr": "依照順序點字卡，排成一句話。", "words": ["every", "Kyro", "day.", "reads", "books"], "ans": "Kyro reads books every day.",
+     "hints": ["大寫字母開頭的字放第一個，有句點的字放最後。", "Kyro reads ..."]},
+    {"kind": "picture", "instr": "看三張圖，把句子寫完。",
+     "panels": [{"type": "clock", "h": 7, "m": 30}, {"type": "object", "obj": "hat", "color": "green"}, {"type": "count", "obj": "egg", "color": "white", "n": 4}],
+     "lines": [
+       {"pre": "I get up at", "post": "in the morning.", "accept": ["seven thirty", "730", "half past seven"], "model": "seven thirty"},
+       {"pre": "My hat is", "post": ".", "accept": ["green"], "model": "green"},
+       {"pre": "There are", "post": "eggs.", "accept": ["four", "4"], "model": "four"}
+     ],
+     "hints": ["時鐘是七點半：seven thirty；帽子是綠色：green。", "數一數有 4 顆蛋：four。"]}
+  ]
+}

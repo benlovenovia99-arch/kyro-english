@@ -495,5 +495,67 @@
    "Is Tom at home? Is Tom at school?",
    "Kane has a new bike."
   ]
+ },
+ {
+  "date": "2026-11-20",
+  "no": 9,
+  "focus": "今天的重點：聽位置 under、數數量、Who…?、Do you…?、讀作息表找時間和地點、Is 開頭的問句、用 and 連接。",
+  "pictures": [
+   "position:cat:under-table",
+   "count:apple"
+  ],
+  "questions": [
+   "Who is your English teacher, Kyro?",
+   "Do you have a pet, Kyro?",
+   "How many apples will they buy?",
+   "Who is Kane?",
+   "What does Dad want to buy for Grandma?",
+   "What is the girl's new toy?"
+  ],
+  "vocabAnswers": [
+   "big",
+   "neighbor",
+   "her"
+  ],
+  "clozeAnswers": [
+   "swim",
+   "He"
+  ],
+  "textGenre": "schedule",
+  "rewrite": "Kane is in the kitchen. → Is Kane in the kitchen?",
+  "combine": "and",
+  "order": "Kyro reads books every day.",
+  "writePanels": [
+   "clock",
+   "object:hat",
+   "count:egg"
+  ],
+  "texts": [
+   "Where is the gray cat?",
+   "How many red apples are there?",
+   "Who is your English teacher, Kyro?",
+   "Do you have a pet, Kyro?",
+   "How many apples will they buy?",
+   "Kyro, we need milk and eggs.",
+   "Can we get some apples, too?",
+   "Sure. Let's buy six apples.",
+   "Who is Kane?",
+   "Kyro, who is that boy?",
+   "That's Kane. He is my brother.",
+   "What does Dad want to buy for Grandma?",
+   "Hi, Kyro. It's Dad. I am at the shop. I want to buy a cake for Grandma. Does she like a cake with fruit? Please call me back.",
+   "What is the girl's new toy?",
+   "I have a new toy. It is round and blue. I can throw it and kick it. I play with it in the park with my dog every day.",
+   "An elephant is not small. It is very ____.",
+   "Mr. Chen lives next to us. He is our ____.",
+   "Amy is my friend. I like ____ very much.",
+   "Dear Grandpa, We are at the beach today. The sky is blue and the sun is hot. Kane and I {1} in the water. Dad has a new camera. {2} takes a lot of pictures. See you soon. Love, Kyro",
+   "What does Kyro do at nine? | Kyro's Saturday",
+   "Where does Kyro play soccer? | Kyro's Saturday",
+   "When does Kyro eat dinner? | Kyro's Saturday",
+   "Kane is in the kitchen.",
+   "I have a cat. I have a dog.",
+   "Kyro reads books every day."
+  ]
  }
 ]
