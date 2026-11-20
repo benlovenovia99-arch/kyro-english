@@ -557,5 +557,67 @@
    "I have a cat. I have a dog.",
    "Kyro reads books every day."
   ]
+ },
+ {
+  "date": "2026-11-21",
+  "no": 10,
+  "focus": "今天的重點：看時鐘說幾點十五分、聽標價（eighty 和 eighteen）、How many…?、Are you…?、讀感謝卡找禮物和日子、Can 開頭的問句、用 but 連接。",
+  "pictures": [
+   "clock",
+   "price:umbrella"
+  ],
+  "questions": [
+   "How many brothers do you have, Kyro?",
+   "Are you ready for school, Kyro?",
+   "When is the girl's birthday party?",
+   "Where is Kyro's math book?",
+   "What can the class see at the park?",
+   "What pet does Kane have?"
+  ],
+  "vocabAnswers": [
+   "small",
+   "hospital",
+   "are"
+  ],
+  "clozeAnswers": [
+   "lions",
+   "it"
+  ],
+  "textGenre": "card",
+  "rewrite": "Kane can ride a bike. → Can Kane ride a bike?",
+  "combine": "but",
+  "order": "My dog likes the park.",
+  "writePanels": [
+   "weather:snowy",
+   "price:book",
+   "position:ball:in-box"
+  ],
+  "texts": [
+   "What time is it on this clock?",
+   "How much is the purple umbrella?",
+   "How many brothers do you have, Kyro?",
+   "Are you ready for school, Kyro?",
+   "When is the girl's birthday party?",
+   "Kyro, my birthday party is on Sunday.",
+   "Great! Can I bring a gift?",
+   "Sure. I like books.",
+   "Where is Kyro's math book?",
+   "Kyro, where is your math book?",
+   "It's in my desk at school, Mom.",
+   "What can the class see at the park?",
+   "Good morning, class. Today is Fun Day. Please go to the park at ten. You can see many birds and frogs there. Bring a hat and some water.",
+   "What pet does Kane have?",
+   "Hi, I am Kane. I am Kyro's brother. I like animals very much. I have a fish at home. It is small and orange. It swims all day.",
+   "My kitten is only two weeks old. It is very ____.",
+   "Kyro is sick. Mom takes him to the ____ to see a doctor.",
+   "There ____ three birds in the tree.",
+   "Saturday, November 21. Today I go to the zoo with Mom and Dad. I see two big {1}. They eat meat. Then we eat ice cream. My ice cream is pink. I like {2} very much. It is a happy day!",
+   "What is Grandma's gift for Kyro? | Thank You, Grandma!",
+   "What is in Kyro's bag? | Thank You, Grandma!",
+   "When can Grandma come to Kyro's house? | Thank You, Grandma!",
+   "Kane can ride a bike.",
+   "I like apples. I don't like bananas.",
+   "My dog likes the park."
+  ]
  }
 ]
