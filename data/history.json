@@ -619,5 +619,67 @@
    "I like apples. I don't like bananas.",
    "My dog likes the park."
   ]
+ },
+ {
+  "date": "2026-11-22",
+  "no": 11,
+  "focus": "今天的重點：看天氣說 cloudy、聽位置 under、When…?、Is this…?、讀媽媽的留言找地點和時間、can't 否定句、用 or 連接問句。",
+  "pictures": [
+   "weather:cloudy",
+   "position:frog:under-tree"
+  ],
+  "questions": [
+   "When do you play soccer, Kyro?",
+   "Is this your umbrella, Kyro?",
+   "What color is the rabbit?",
+   "How does Kyro go to school?",
+   "What will the class draw today?",
+   "What is Kyro's favorite thing?"
+  ],
+  "vocabAnswers": [
+   "coat",
+   "insects",
+   "an"
+  ],
+  "clozeAnswers": [
+   "jumps",
+   "him"
+  ],
+  "textGenre": "message",
+  "rewrite": "The cat can swim. → The cat can't swim.",
+  "combine": "or",
+  "order": "Mom cooks dinner at six.",
+  "writePanels": [
+   "calendar",
+   "count:bird",
+   "object:cup"
+  ],
+  "texts": [
+   "How is the weather in this picture?",
+   "Where is the green frog?",
+   "When do you play soccer, Kyro?",
+   "Is this your umbrella, Kyro?",
+   "What color is the rabbit?",
+   "Kyro, look at that rabbit!",
+   "Wow! It is small and white.",
+   "It likes to eat carrots.",
+   "How does Kyro go to school?",
+   "Kyro, how do you go to school?",
+   "I go by bus, Dad.",
+   "What will the class draw today?",
+   "Class, it is art time. Please take out your crayons and paper. Today we draw a big tree. Make the tree green and brown. Have fun!",
+   "What is Kyro's favorite thing?",
+   "This is my favorite thing. It is red. I wear it on my head. It keeps the sun off my face. I wear it in the park.",
+   "It is very cold today. Please wear your ____.",
+   "Ants and bees are small ____.",
+   "Kyro eats ____ egg every morning.",
+   "Tom is a little frog. He lives in a pond. Every day he {1} high. One day he sees a big bird. Tom goes under a leaf. The bird cannot see {2}. Now Tom is safe!",
+   "Where is Mom when she writes the message? | A Message from Mom",
+   "Where is Kyro's lunch? | A Message from Mom",
+   "What does Mom want Kyro to do at twelve? | A Message from Mom",
+   "The cat can swim.",
+   "Is your cat black? Is your cat white?",
+   "Mom cooks dinner at six."
+  ]
  }
 ]

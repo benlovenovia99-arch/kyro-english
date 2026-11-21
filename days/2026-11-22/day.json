@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-22",
+  "no": 11,
+  "focus": "今天的重點：看天氣說 cloudy、聽位置 under、When…?、Is this…?、讀媽媽的留言找地點和時間、can't 否定句、用 or 連接問句。",
+  "notes": [
+    "聽力第 4 題：Is this your…? 要用 Yes, it is 或 No, it isn't 回答。在家可以指著東西問 Kyro：Is this your pencil? 讓他練習快速回答。",
+    "閱讀詞彙第 3 題：egg 是母音開頭，要用 an egg；可以順便練 an apple、an orange。段落填空第 1 格：Tom 是一個人（一隻青蛙），動詞要加 s：jumps。",
+    "寫作第 1 題：有 can 的句子要變否定，直接說 can't（cannot），後面的動詞不加 s，也不用 don't。"
+  ],
+  "listen": [
+    {"kind": "picaudio", "pic": {"type": "weather", "w": "cloudy"},
+     "q": "How is the weather in this picture?",
+     "opts": ["It's sunny.", "It's cloudy.", "It's snowy."], "ans": 1,
+     "why": "圖上是一朵一朵的雲，沒有太陽也沒有雪：cloudy（多雲）。sunny 是晴天，snowy 是下雪。"},
+    {"kind": "picaudio", "pic": {"type": "position", "obj": "frog", "color": "green", "rel": "under", "ref": "tree"},
+     "q": "Where is the green frog?",
+     "opts": ["It's in the tree.", "It's next to the tree.", "It's under the tree."], "ans": 2,
+     "why": "青蛙在樹的下面：under the tree。in the tree 是在樹上，next to the tree 是在樹的旁邊。"},
+    {"kind": "audioq", "talk": [["w", "When do you play soccer, Kyro?"]],
+     "opts": ["On Saturday.", "With my brother.", "Yes, I can."], "ans": 0,
+     "why": "When 問「什麼時候」，要回答時間：On Saturday（星期六）。With my brother 是回答「和誰」。"},
+    {"kind": "audioq", "talk": [["m", "Is this your umbrella, Kyro?"]],
+     "opts": ["It's raining.", "I'm fine.", "Yes, it is."], "ans": 2,
+     "why": "Is this your…? 問「這是你的⋯⋯嗎？」，回答用 Yes, it is 或 No, it isn't。"},
+    {"kind": "dialog", "talk": [["g", "Kyro, look at that rabbit!"], ["b", "Wow! It is small and white."], ["g", "It likes to eat carrots."]],
+     "q": "What color is the rabbit?",
+     "opts": ["Brown.", "White.", "Black."], "ans": 1,
+     "why": "Kyro 說 It is small and white：那隻兔子小小的、白色的。"},
+    {"kind": "dialog", "talk": [["m", "Kyro, how do you go to school?"], ["b", "I go by bus, Dad."]],
+     "q": "How does Kyro go to school?",
+     "opts": ["By bus.", "By car.", "By bike."], "ans": 0,
+     "why": "Kyro 說 I go by bus：他搭公車上學。"},
+    {"kind": "picopts",
+     "talk": [["w", "Class, it is art time. Please take out your crayons and paper. Today we draw a big tree. Make the tree green and brown. Have fun!"]],
+     "q": "What will the class draw today?",
+     "pics": [{"type": "object", "obj": "house", "color": "blue"}, {"type": "object", "obj": "car", "color": "red"}, {"type": "object", "obj": "tree", "color": "green"}],
+     "labels": ["房子", "車子", "樹"], "ans": 2,
+     "why": "老師說 Today we draw a big tree：今天要畫一棵大樹。"},
+    {"kind": "picopts",
+     "talk": [["b", "This is my favorite thing. It is red. I wear it on my head. It keeps the sun off my face. I wear it in the park."]],
+     "q": "What is Kyro's favorite thing?",
+     "pics": [{"type": "object", "obj": "bag", "color": "red"}, {"type": "object", "obj": "hat", "color": "red"}, {"type": "object", "obj": "ball", "color": "red"}],
+     "labels": ["包包", "帽子", "球"], "ans": 1,
+     "why": "Kyro 說 I wear it on my head（戴在頭上），還可以擋太陽：是一頂帽子。"}
+  ],
+  "read": {
+    "vocab": [
+      {"stem": "It is very cold today. Please wear your ____.", "opts": ["fish", "lunch", "coat", "bed"], "ans": 2,
+       "why": "天氣很冷，要穿外套：coat。"},
+      {"stem": "Ants and bees are small ____.", "opts": ["insects", "birds", "cities", "doctors"], "ans": 0,
+       "why": "螞蟻和蜜蜂都是小小的昆蟲：insects，是學校 LA 的單字。"},
+      {"stem": "Kyro eats ____ egg every morning.", "opts": ["a", "an", "two", "many"], "ans": 1,
+       "why": "egg 是母音 e 開頭，前面用 an：an egg。two 和 many 後面要接複數 eggs。"}
+    ],
+    "cloze": {
+      "passage": "Tom is a little frog. He lives in a pond. Every day he {1} high. One day he sees a big bird. Tom goes under a leaf. The bird cannot see {2}. Now Tom is safe!",
+      "items": [
+        {"opts": ["jump", "jumping", "to jump", "jumps"], "ans": 3, "why": "he（他）是一個，每天做的事，動詞要加 s：he jumps。"},
+        {"opts": ["he", "him", "his", "they"], "ans": 1, "why": "放在 see 後面當「看見誰」，要用 him，不是 he。"}
+      ]
+    },
+    "text": {
+      "genre": "message", "intro": "讀下面媽媽留給 Kyro 的留言，回答三個問題。",
+      "title": "A Message from Mom",
+      "lines": ["Kyro,", "I am at the shop now.", "Your lunch is on the table.", "Please feed the cat at twelve.", "Kane comes home at three.", "Love, Mom"],
+      "items": [
+        {"stem": "Where is Mom when she writes the message?", "opts": ["At school.", "At the shop.", "At the park.", "At home."], "ans": 1,
+         "why": "留言第二行：I am at the shop now，媽媽在商店。"},
+        {"stem": "Where is Kyro's lunch?", "opts": ["In the bag.", "Under the bed.", "In the box.", "On the table."], "ans": 3,
+         "why": "Your lunch is on the table：午餐在桌子上。"},
+        {"stem": "What does Mom want Kyro to do at twelve?", "opts": ["Feed the cat.", "Call Dad.", "Read a book.", "Go to the park."], "ans": 0,
+         "why": "Please feed the cat at twelve：十二點要餵貓。"}
+      ]
+    }
+  },
+  "write": [
+    {"kind": "rewrite", "instr": "改成否定句（不會⋯⋯）。", "prompt": "The cat can swim.", "needQ": false,
+     "accept": ["the cat can't swim", "the cat cannot swim", "the cat can not swim"], "model": "The cat can't swim.",
+     "near": [["^the cat can swim$", "否定句要在 can 後面加 not：can't 或 cannot。"], ["(don't|doesn't)", "有 can 的句子，否定直接說 can't，不用 don't 或 doesn't。"], ["(can't|cannot|can not) swims", "can 後面的動詞不加 s：swim。"]],
+     "hints": ["在 can 後面加 not，可以寫成 can't。", "The cat ___ swim."]},
+    {"kind": "combine", "instr": "用 or 把兩個問句合成一句。", "prompt": ["Is your cat black?", "Is your cat white?"], "word": "or", "needQ": true,
+     "accept": ["is your cat black or white", "is your cat black or is it white", "is your cat black or is your cat white"], "model": "Is your cat black or white?",
+     "near": [["\\band\\b", "要問「選哪一個」，用 or，不是 and。"], ["^is your cat black white$", "兩個顏色中間要加 or。"], ["^your cat is", "這是問句，Is 要放在最前面。"]],
+     "hints": ["兩個問句只有顏色不一樣，用 or 把顏色連起來。", "Is your cat black ___ white?"]},
+    {"kind": "order", "instr": "依照順序點字卡，排成一句話。", "words": ["six.", "cooks", "Mom", "at", "dinner"], "ans": "Mom cooks dinner at six.",
+     "hints": ["大寫字母開頭的字放第一個，有句點的字放最後。", "Mom cooks ..."]},
+    {"kind": "picture", "instr": "看三張圖，把句子寫完。",
+     "panels": [{"type": "calendar", "mon": "NOV", "day": 22, "wd": "SUNDAY"}, {"type": "count", "obj": "bird", "color": "blue", "n": 4}, {"type": "object", "obj": "cup", "color": "yellow"}],
+     "lines": [
+       {"pre": "Today is", "post": ".", "accept": ["sunday"], "model": "Sunday"},
+       {"pre": "I can see", "post": "blue birds.", "accept": ["four", "4"], "model": "four"},
+       {"pre": "This is a", "post": "cup.", "accept": ["yellow"], "model": "yellow"}
+     ],
+     "hints": ["看日曆上的星期：SUNDAY；數一數有幾隻鳥。", "杯子是什麼顏色？yellow。"]}
+  ]
+}
