@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-23",
+  "no": 12,
+  "focus": "今天的重點：看日曆說星期幾、數數量、What time…?、What do you…?、聽電話留言和公告找細節、讀哥哥的紙條、Does 開頭的問句、用 and 連接。",
+  "notes": [
+    "聽力第 3 題：What time 問「幾點」，要回答 At nine o'clock 這種時間，不是地點。在家可以問 Kyro：What time do you eat dinner? 讓他用 At … 回答。",
+    "閱讀詞彙第 3 題：two 後面要用複數 pencils；段落填空第 2 格：Kane 是一個人，be 動詞用 is。",
+    "寫作第 1 題：Kane likes apples 改問句要用 Does 開頭，而且 likes 要變回 like（s 跑到 Does 身上了）。"
+  ],
+  "listen": [
+    {"kind": "picaudio", "pic": {"type": "calendar", "mon": "DEC", "day": 5, "wd": "SATURDAY"},
+     "q": "Look at the calendar. What day is it?",
+     "opts": ["It's Monday.", "It's Sunday.", "It's Saturday."], "ans": 2,
+     "why": "日曆上寫 SATURDAY：星期六。Monday 是星期一，Sunday 是星期日。"},
+    {"kind": "picaudio", "pic": {"type": "count", "obj": "fish", "color": "orange", "n": 7},
+     "q": "How many orange fish can you see?",
+     "opts": ["Six.", "Seven.", "Eight."], "ans": 1,
+     "why": "數一數，橘色的魚有 7 條：seven。"},
+    {"kind": "audioq", "talk": [["w", "What time do you go to bed, Kyro?"]],
+     "opts": ["In my bed.", "At nine o'clock.", "Yes, I do."], "ans": 1,
+     "why": "What time 問「幾點」，要回答時間：At nine o'clock（九點）。In my bed 是地點。"},
+    {"kind": "audioq", "talk": [["m", "What do you do on Sunday, Kyro?"]],
+     "opts": ["I play in the park.", "It's sunny.", "I'm seven."], "ans": 0,
+     "why": "What do you do 問「你做什麼」，要回答做的事：I play in the park（我在公園玩）。"},
+    {"kind": "dialog", "talk": [["w", "Kyro, do you want rice or noodles?"], ["b", "Noodles, please. And some soup, Mom."]],
+     "q": "What will Kyro eat?",
+     "opts": ["Rice.", "Bread.", "Noodles."], "ans": 2,
+     "why": "Kyro 說 Noodles, please：他要吃麵，還要一些湯。"},
+    {"kind": "dialog", "talk": [["m", "Kyro, do you like to draw?"], ["b", "Yes, I like to draw cars."], ["k", "And I like to draw cats!"]],
+     "q": "What does Kane like to draw?",
+     "opts": ["Cars.", "Cats.", "Trees."], "ans": 1,
+     "why": "Kane 說 I like to draw cats：Kane 喜歡畫貓。畫車子的是 Kyro。"},
+    {"kind": "picopts",
+     "talk": [["w", "Hi, Kyro. This is Grandma. I have a big yellow cake for you. Please come to my house on Sunday. Bring Kane, too. See you then!"]],
+     "q": "What does Grandma have for Kyro?",
+     "pics": [{"type": "object", "obj": "flower", "color": "pink"}, {"type": "object", "obj": "cake", "color": "yellow"}, {"type": "object", "obj": "egg", "color": "white"}],
+     "labels": ["花", "蛋糕", "蛋"], "ans": 1,
+     "why": "奶奶說 I have a big yellow cake for you：她有一個黃色的大蛋糕要給 Kyro。"},
+    {"kind": "picopts",
+     "talk": [["m", "Hello, everyone. The school park is closed today. It is too wet. Please play in the library after lunch. Do not bring a ball to the library. Thank you!"]],
+     "q": "What can't the children bring to the library?",
+     "pics": [{"type": "object", "obj": "ball", "color": "red"}, {"type": "object", "obj": "book", "color": "blue"}, {"type": "object", "obj": "bag", "color": "green"}],
+     "labels": ["球", "書", "包包"], "ans": 0,
+     "why": "公告說 Do not bring a ball to the library：不能帶球去圖書館。"}
+  ],
+  "read": {
+    "vocab": [
+      {"stem": "Please wash your ____ before dinner.", "opts": ["books", "shoes", "hands", "birds"], "ans": 2,
+       "why": "吃晚餐前要洗手：hands。"},
+      {"stem": "A house is a good ____. It keeps us safe from the rain.", "opts": ["prey", "shelter", "color", "teacher"], "ans": 1,
+       "why": "房子可以替我們擋雨、保護我們，是遮蔽的地方：shelter，是學校 LA 的單字。"},
+      {"stem": "Kane has two ____ in his bag.", "opts": ["pencil", "a pencil", "an pencil", "pencils"], "ans": 3,
+       "why": "two（兩枝）後面要用複數，加 s：pencils。"}
+    ],
+    "cloze": {
+      "passage": "Dear Ms. Lee, Thank you for the music class. I like the song about the moon. I sing {1} at home every night. My brother Kane sings with me. He {2} a good singer, too! Your student, Kyro",
+      "items": [
+        {"opts": ["it", "they", "he", "she"], "ans": 0, "why": "前面說的是一首歌（the song），一個東西用 it：I sing it。"},
+        {"opts": ["am", "are", "is", "be"], "ans": 2, "why": "He（他）是一個人，be 動詞用 is：He is a good singer。"}
+      ]
+    },
+    "text": {
+      "genre": "note", "intro": "讀下面 Kane 留給 Kyro 的紙條，回答三個問題。",
+      "title": "A Note from Kane",
+      "lines": ["Kyro,", "I am at Tom's house.", "We are doing homework.", "Your toy car is in my room.", "You can play with it.", "Dinner is at six-thirty.", "Kane"],
+      "items": [
+        {"stem": "Where is Kane now?", "opts": ["At school.", "At the park.", "At home.", "At Tom's house."], "ans": 3,
+         "why": "紙條第二行：I am at Tom's house，Kane 在 Tom 家。"},
+        {"stem": "Where is Kyro's toy car?", "opts": ["In Kane's room.", "On the table.", "Under the bed.", "In the box."], "ans": 0,
+         "why": "Your toy car is in my room：玩具車在 Kane 的房間（my room 的 my 是寫紙條的 Kane）。"},
+        {"stem": "What time is dinner?", "opts": ["At six.", "At six-thirty.", "At seven.", "At three."], "ans": 1,
+         "why": "Dinner is at six-thirty：晚餐是六點半。"}
+      ]
+    }
+  },
+  "write": [
+    {"kind": "rewrite", "instr": "改成問句（Kane 喜歡⋯⋯嗎？）。", "prompt": "Kane likes apples.", "needQ": true,
+     "accept": ["does kane like apples"], "model": "Does Kane like apples?",
+     "near": [["^does kane likes", "Does 後面的動詞不加 s：like。"], ["^do kane", "Kane 是一個人，要用 Does，不是 Do。"], ["^kane likes apples$", "問句要把 Does 放在最前面。"], ["^is kane", "like 是一般動詞，問句用 Does，不用 Is。"]],
+     "hints": ["Kane 是一個人，問句用 Does 開頭，like 不加 s。", "Does Kane ___ apples?"]},
+    {"kind": "combine", "instr": "用 and 把兩個句子合成一句。", "prompt": ["I have a dog.", "I have a cat."], "word": "and", "needQ": false,
+     "accept": ["i have a dog and a cat", "i have a dog and i have a cat"], "model": "I have a dog and a cat.",
+     "near": [["\\bbut\\b", "兩樣都有，用 and，不是 but。"], ["\\bor\\b", "兩樣都有，用 and，不是 or。"], ["^i have a dog a cat$", "dog 和 a cat 中間要加 and。"]],
+     "hints": ["兩句都是 I have，用 and 把 a dog 和 a cat 連起來。", "I have a dog ___ a cat."]},
+    {"kind": "order", "instr": "依照順序點字卡，排成一句話。", "words": ["park.", "play", "We", "in", "the"], "ans": "We play in the park.",
+     "hints": ["大寫字母開頭的字放第一個，有句點的字放最後。", "We play ..."]},
+    {"kind": "picture", "instr": "看三張圖，把句子寫完。",
+     "panels": [{"type": "clock", "h": 4, "m": 30}, {"type": "weather", "w": "rainy"}, {"type": "price", "obj": "ball", "color": "blue", "amount": 50}],
+     "lines": [
+       {"pre": "We go home at", "post": ".", "accept": ["four thirty", "430", "half past four"], "model": "four thirty"},
+       {"pre": "Today it is", "post": ".", "accept": ["rainy"], "model": "rainy"},
+       {"pre": "The blue ball is", "post": "dollars.", "accept": ["fifty", "50"], "model": "fifty"}
+     ],
+     "hints": ["時鐘是四點半：four thirty；圖上在下雨：rainy。", "球的標價是 50：fifty。"]}
+  ]
+}

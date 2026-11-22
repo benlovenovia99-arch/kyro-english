@@ -681,5 +681,67 @@
    "Is your cat black? Is your cat white?",
    "Mom cooks dinner at six."
   ]
+ },
+ {
+  "date": "2026-11-23",
+  "no": 12,
+  "focus": "今天的重點：看日曆說星期幾、數數量、What time…?、What do you…?、聽電話留言和公告找細節、讀哥哥的紙條、Does 開頭的問句、用 and 連接。",
+  "pictures": [
+   "calendar",
+   "count:fish"
+  ],
+  "questions": [
+   "What time do you go to bed, Kyro?",
+   "What do you do on Sunday, Kyro?",
+   "What will Kyro eat?",
+   "What does Kane like to draw?",
+   "What does Grandma have for Kyro?",
+   "What can't the children bring to the library?"
+  ],
+  "vocabAnswers": [
+   "hands",
+   "shelter",
+   "pencils"
+  ],
+  "clozeAnswers": [
+   "it",
+   "is"
+  ],
+  "textGenre": "note",
+  "rewrite": "Kane likes apples. → Does Kane like apples?",
+  "combine": "and",
+  "order": "We play in the park.",
+  "writePanels": [
+   "clock",
+   "weather:rainy",
+   "price:ball"
+  ],
+  "texts": [
+   "Look at the calendar. What day is it?",
+   "How many orange fish can you see?",
+   "What time do you go to bed, Kyro?",
+   "What do you do on Sunday, Kyro?",
+   "What will Kyro eat?",
+   "Kyro, do you want rice or noodles?",
+   "Noodles, please. And some soup, Mom.",
+   "What does Kane like to draw?",
+   "Kyro, do you like to draw?",
+   "Yes, I like to draw cars.",
+   "And I like to draw cats!",
+   "What does Grandma have for Kyro?",
+   "Hi, Kyro. This is Grandma. I have a big yellow cake for you. Please come to my house on Sunday. Bring Kane, too. See you then!",
+   "What can't the children bring to the library?",
+   "Hello, everyone. The school park is closed today. It is too wet. Please play in the library after lunch. Do not bring a ball to the library. Thank you!",
+   "Please wash your ____ before dinner.",
+   "A house is a good ____. It keeps us safe from the rain.",
+   "Kane has two ____ in his bag.",
+   "Dear Ms. Lee, Thank you for the music class. I like the song about the moon. I sing {1} at home every night. My brother Kane sings with me. He {2} a good singer, too! Your student, Kyro",
+   "Where is Kane now? | A Note from Kane",
+   "Where is Kyro's toy car? | A Note from Kane",
+   "What time is dinner? | A Note from Kane",
+   "Kane likes apples.",
+   "I have a dog. I have a cat.",
+   "We play in the park."
+  ]
  }
 ]
