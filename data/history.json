@@ -743,5 +743,68 @@
    "I have a dog. I have a cat.",
    "We play in the park."
   ]
+ },
+ {
+  "date": "2026-11-24",
+  "no": 13,
+  "focus": "今天的重點：看天氣圖說 windy、聽位置 on、What color…?、Can you…?、聽老師指示和自我介紹找細節、讀作息表、現在進行式 is + -ing、用 but 連接。",
+  "pictures": [
+   "weather:windy",
+   "position:book:on-table"
+  ],
+  "questions": [
+   "What color is your lunch box, Kyro?",
+   "Can you play the piano, Kyro?",
+   "What does Kyro have today?",
+   "How will they go to the zoo?",
+   "What should the children bring from home?",
+   "What pet does Tom have?"
+  ],
+  "vocabAnswers": [
+   "pencil",
+   "cook",
+   "can"
+  ],
+  "clozeAnswers": [
+   "Its",
+   "under"
+  ],
+  "textGenre": "schedule",
+  "rewrite": "Kyro draws a cat. → Kyro is drawing a cat.",
+  "combine": "but",
+  "order": "Kyro has a red kite.",
+  "writePanels": [
+   "count:flower",
+   "position:cat:on-chair",
+   "object:umbrella"
+  ],
+  "texts": [
+   "How is the weather this afternoon?",
+   "Where is the green book?",
+   "What color is your lunch box, Kyro?",
+   "Can you play the piano, Kyro?",
+   "What does Kyro have today?",
+   "Kyro, let's play basketball after school.",
+   "Sorry, Kane. I have swimming class today.",
+   "OK. Let's play tomorrow.",
+   "How will they go to the zoo?",
+   "Kyro, we can take the bus to the zoo.",
+   "Can we take the train, Mom?",
+   "OK. The train is fast.",
+   "What should the children bring from home?",
+   "Good morning, class. We will plant flowers today. Please bring a cup from home. Do not bring a ball. Put on your hat. It is sunny.",
+   "What pet does Tom have?",
+   "Hi, I am Tom. I am Kane's friend. I am nine years old. I like animals. I have a bird at home. It is yellow and small. It can sing every morning.",
+   "I want to write my name. Where is my ____?",
+   "A ____ makes good food in the kitchen.",
+   "My little sister ____ ride a bike now.",
+   "Kyro has a little dog. {1} name is Lucky. Lucky likes to run in the park. One day, Lucky sees a big ball {2} a tree. He runs to the tree and gets it. Kyro is very happy.",
+   "What time is Kyro's swimming class? | Kyro's Tuesday",
+   "How does Kyro go to school? | Kyro's Tuesday",
+   "What does Kyro do at six-thirty? | Kyro's Tuesday",
+   "Kyro draws a cat.",
+   "My bag is big. My cup is small.",
+   "Kyro has a red kite."
+  ]
  }
 ]
