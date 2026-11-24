@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-25",
+  "no": 14,
+  "focus": "今天的重點：看時鐘說四十五分、聽標價（seventy-five 和 fifty-seven）、Where…?、How old…?、聽物品描述和電話留言找細節、讀游泳池公告、Are there 問句、用 or 連接問句。",
+  "notes": [
+    "聽力第 2 題：seventy-five（75）和 fifty-seven（57）的數字順序相反，容易聽混。可以在家說幾個兩位數，請 Kyro 寫下來。",
+    "閱讀詞彙第 3 題：兩隻小貓是「很多個」，要用 them（他們），不能用 it。可以指著兩樣東西問 Kyro：I like ____.",
+    "寫作第 1 題：There are… 改成問句，要把 are 移到最前面：Are there three eggs in the box? 句尾記得問號。"
+  ],
+  "listen": [
+    {"kind": "picaudio", "pic": {"type": "clock", "h": 9, "m": 45},
+     "q": "What time does the movie start?",
+     "opts": ["At nine fifteen.", "At nine forty-five.", "At ten forty-five."], "ans": 1,
+     "why": "長針指著 9 是 45 分，短針在 9 和 10 中間：九點四十五分 nine forty-five。"},
+    {"kind": "picaudio", "pic": {"type": "price", "obj": "bag", "color": "red", "amount": 75},
+     "q": "How much is the red bag?",
+     "opts": ["It's seventy-five dollars.", "It's fifty-seven dollars.", "It's seventy dollars."], "ans": 0,
+     "why": "標價是 75：seventy-five dollars。fifty-seven 是 57，數字順序相反。"},
+    {"kind": "audioq", "talk": [["w", "Where do you put your shoes, Kyro?"]],
+     "opts": ["They're black.", "By the door.", "Yes, I do."], "ans": 1,
+     "why": "Where 問「在哪裡」，要回答地點：By the door（在門旁邊）。They're black 是顏色。"},
+    {"kind": "audioq", "talk": [["m", "How old is your cat, Kyro?"]],
+     "opts": ["She is white.", "She likes fish.", "She is three."], "ans": 2,
+     "why": "How old 問「幾歲」，要回答年紀：She is three（三歲）。white 是顏色。"},
+    {"kind": "dialog", "talk": [["g", "Kyro, my birthday party is on Sunday. Can you come?"], ["b", "Yes! What can I bring?"], ["g", "Please bring some cookies."]],
+     "q": "What will Kyro bring to the party?",
+     "opts": ["Some cookies.", "Some juice.", "A cake."], "ans": 0,
+     "why": "女孩說 Please bring some cookies：請 Kyro 帶一些餅乾來。"},
+    {"kind": "dialog", "talk": [["b", "Mom, can I go to the park now?"], ["w", "No, Kyro. It is rainy now. Let's go after lunch."], ["b", "OK. I can read a book first."]],
+     "q": "How is the weather now?",
+     "opts": ["It's sunny.", "It's windy.", "It's rainy."], "ans": 2,
+     "why": "媽媽說 It is rainy now：現在在下雨，所以先不去公園。"},
+    {"kind": "picopts",
+     "talk": [["b", "Look at my new toy. It is small and yellow. It has four wheels. It can go fast on the floor. I play with it every day."]],
+     "q": "What is Kyro's new toy?",
+     "pics": [{"type": "object", "obj": "ball", "color": "yellow"}, {"type": "object", "obj": "car", "color": "yellow"}, {"type": "object", "obj": "bird", "color": "yellow"}],
+     "labels": ["球", "小汽車", "鳥"], "ans": 1,
+     "why": "Kyro 說 It has four wheels：有四個輪子，可以在地上跑很快，是玩具小汽車。"},
+    {"kind": "picopts",
+     "talk": [["w", "Hi, Kane. This is Ms. Lee. Our class will go to the park tomorrow. Please bring an umbrella. It may be rainy. See you at eight."]],
+     "q": "What should Kane bring tomorrow?",
+     "pics": [{"type": "object", "obj": "hat", "color": "red"}, {"type": "object", "obj": "bag", "color": "blue"}, {"type": "object", "obj": "umbrella", "color": "green"}],
+     "labels": ["帽子", "書包", "雨傘"], "ans": 2,
+     "why": "李老師說 Please bring an umbrella：明天可能下雨，要帶雨傘。"}
+  ],
+  "read": {
+    "vocab": [
+      {"stem": "This ice cream is cold and ____. I like it!", "opts": ["tall", "slow", "sweet", "sad"], "ans": 2,
+       "why": "冰淇淋又冰又甜：sweet（甜的）。tall 是高的，slow 是慢的。"},
+      {"stem": "The little fish can ____ in the green plants. The big fish can't see it.", "opts": ["hide", "shout", "cook", "build"], "ans": 0,
+       "why": "小魚躲在水草裡，大魚就看不到：hide（躲藏），是學校 LA 的單字。"},
+      {"stem": "I have two kittens. I play with ____ every day.", "opts": ["it", "he", "her", "them"], "ans": 3,
+       "why": "兩隻小貓是很多個，要用 them（他們）。it 只能指一個。"}
+    ],
+    "cloze": {
+      "passage": "Dear Kane, I am at the farm with Grandpa. It is cloudy today. Grandpa {1} three cows and many ducks. I feed the ducks every morning. They are white and very cute. There is a big pond {2} the house. See you soon! Kyro",
+      "items": [
+        {"opts": ["have", "has", "is", "are"], "ans": 1, "why": "Grandpa 是一個人（他），「有」要用 has：Grandpa has three cows。"},
+        {"opts": ["on", "at", "of", "next to"], "ans": 3, "why": "池塘在房子的旁邊：next to the house。"}
+      ]
+    },
+    "text": {
+      "genre": "notice", "intro": "讀下面游泳池的公告，回答三個問題。",
+      "title": "Sunny Park Pool",
+      "lines": ["Open: Tuesday to Sunday", "Time: 9:00 to 5:00", "Closed on Monday", "Kids: 30 dollars", "Please wear a swim cap.", "No food in the pool."],
+      "items": [
+        {"stem": "When is the pool closed?", "opts": ["On Monday.", "On Tuesday.", "On Saturday.", "On Sunday."], "ans": 0,
+         "why": "Closed on Monday：星期一不開。"},
+        {"stem": "How much is it for kids?", "opts": ["Thirteen dollars.", "Fifty dollars.", "Thirty dollars.", "Three dollars."], "ans": 2,
+         "why": "Kids: 30 dollars：小朋友 30 元，thirty。thirteen 是 13。"},
+        {"stem": "What must you wear in the pool?", "opts": ["A hat.", "A swim cap.", "A coat.", "Shoes."], "ans": 1,
+         "why": "Please wear a swim cap：要戴泳帽。"}
+      ]
+    }
+  },
+  "write": [
+    {"kind": "rewrite", "instr": "改成問句。", "prompt": "There are three eggs in the box.", "needQ": true,
+     "accept": ["are there three eggs in the box"], "model": "Are there three eggs in the box?",
+     "near": [["^there are three eggs in the box$", "問句要把 Are 放到最前面：Are there…?"], ["^is there three", "三顆蛋是很多個，要用 Are there。"], ["^are there three egg in", "eggs 要保留 s。"], ["^there are", "問句要用 Are 開頭。"]],
+     "hints": ["There are 變問句：Are there …?", "Are there three ___ in the box?"]},
+    {"kind": "combine", "instr": "用 or 把兩個問句合成一句。", "prompt": ["Is the frog green?", "Is the frog brown?"], "word": "or", "needQ": true,
+     "accept": ["is the frog green or brown", "is the frog green or is the frog brown"], "model": "Is the frog green or brown?",
+     "near": [["\\band\\b", "問「哪一個」要用 or，不是 and。"], ["\\bbut\\b", "問「哪一個」要用 or，不是 but。"], ["^is the frog green brown", "green 和 brown 中間要加 or。"]],
+     "hints": ["兩個選一個，用 or 連起來。", "Is the frog green ___ brown?"]},
+    {"kind": "order", "instr": "依照順序點字卡，排成一句話。", "words": ["library.", "the", "to", "go", "We"], "ans": "We go to the library.",
+     "hints": ["大寫字母開頭的字放第一個，有句點的字放最後。", "We go ..."]},
+    {"kind": "picture", "instr": "看三張圖，把句子寫完。",
+     "panels": [{"type": "clock", "h": 7, "m": 30}, {"type": "weather", "w": "sunny"}, {"type": "price", "obj": "apple", "color": "red", "amount": 20}],
+     "lines": [
+       {"pre": "I get up at", "post": "thirty.", "accept": ["seven", "7"], "model": "seven"},
+       {"pre": "It is a", "post": "day.", "accept": ["sunny"], "model": "sunny"},
+       {"pre": "The apple is", "post": "dollars.", "accept": ["twenty", "20"], "model": "twenty"}
+     ],
+     "hints": ["短針在 7 和 8 中間、長針指 6：seven thirty；太陽出來是 sunny。", "蘋果標價 20：twenty。"]}
+  ]
+}

@@ -806,5 +806,68 @@
    "My bag is big. My cup is small.",
    "Kyro has a red kite."
   ]
+ },
+ {
+  "date": "2026-11-25",
+  "no": 14,
+  "focus": "今天的重點：看時鐘說四十五分、聽標價（seventy-five 和 fifty-seven）、Where…?、How old…?、聽物品描述和電話留言找細節、讀游泳池公告、Are there 問句、用 or 連接問句。",
+  "pictures": [
+   "clock",
+   "price:bag"
+  ],
+  "questions": [
+   "Where do you put your shoes, Kyro?",
+   "How old is your cat, Kyro?",
+   "What will Kyro bring to the party?",
+   "How is the weather now?",
+   "What is Kyro's new toy?",
+   "What should Kane bring tomorrow?"
+  ],
+  "vocabAnswers": [
+   "sweet",
+   "hide",
+   "them"
+  ],
+  "clozeAnswers": [
+   "has",
+   "next to"
+  ],
+  "textGenre": "notice",
+  "rewrite": "There are three eggs in the box. → Are there three eggs in the box?",
+  "combine": "or",
+  "order": "We go to the library.",
+  "writePanels": [
+   "clock",
+   "weather:sunny",
+   "price:apple"
+  ],
+  "texts": [
+   "What time does the movie start?",
+   "How much is the red bag?",
+   "Where do you put your shoes, Kyro?",
+   "How old is your cat, Kyro?",
+   "What will Kyro bring to the party?",
+   "Kyro, my birthday party is on Sunday. Can you come?",
+   "Yes! What can I bring?",
+   "Please bring some cookies.",
+   "How is the weather now?",
+   "Mom, can I go to the park now?",
+   "No, Kyro. It is rainy now. Let's go after lunch.",
+   "OK. I can read a book first.",
+   "What is Kyro's new toy?",
+   "Look at my new toy. It is small and yellow. It has four wheels. It can go fast on the floor. I play with it every day.",
+   "What should Kane bring tomorrow?",
+   "Hi, Kane. This is Ms. Lee. Our class will go to the park tomorrow. Please bring an umbrella. It may be rainy. See you at eight.",
+   "This ice cream is cold and ____. I like it!",
+   "The little fish can ____ in the green plants. The big fish can't see it.",
+   "I have two kittens. I play with ____ every day.",
+   "Dear Kane, I am at the farm with Grandpa. It is cloudy today. Grandpa {1} three cows and many ducks. I feed the ducks every morning. They are white and very cute. There is a big pond {2} the house. See you soon! Kyro",
+   "When is the pool closed? | Sunny Park Pool",
+   "How much is it for kids? | Sunny Park Pool",
+   "What must you wear in the pool? | Sunny Park Pool",
+   "There are three eggs in the box.",
+   "Is the frog green? Is the frog brown?",
+   "We go to the library."
+  ]
  }
 ]
