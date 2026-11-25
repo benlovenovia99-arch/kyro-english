@@ -869,5 +869,67 @@
    "Is the frog green? Is the frog brown?",
    "We go to the library."
   ]
+ },
+ {
+  "date": "2026-11-26",
+  "no": 15,
+  "focus": "今天的重點：聽物品名稱、數星星（seven）、Who…?、Do you…?、聽購物和家人對話、聽公告和自我介紹找細節、讀餐廳菜單找價錢、be 動詞否定句、用 and 連接。",
+  "pictures": [
+   "object:bottle",
+   "count:star"
+  ],
+  "questions": [
+   "Who cooks dinner at your home, Kyro?",
+   "Do you like rainy days, Kyro?",
+   "Which cap does Kyro want?",
+   "Where is Dad?",
+   "Which pet can't come to the park?",
+   "What is Amy's favorite food?"
+  ],
+  "vocabAnswers": [
+   "sandwich",
+   "nurse",
+   "drinks"
+  ],
+  "clozeAnswers": [
+   "to",
+   "have"
+  ],
+  "textGenre": "menu",
+  "rewrite": "The bus is yellow. → The bus isn't yellow.",
+  "combine": "and",
+  "order": "The bird sings in the tree.",
+  "writePanels": [
+   "calendar",
+   "position:cat:under-chair",
+   "count:egg"
+  ],
+  "texts": [
+   "What is in this picture, Kyro?",
+   "How many yellow stars can you see?",
+   "Who cooks dinner at your home, Kyro?",
+   "Do you like rainy days, Kyro?",
+   "Which cap does Kyro want?",
+   "Kyro, do you want the blue cap or the green cap?",
+   "The green one, Mom. Green is my favorite color.",
+   "OK. It is ten dollars.",
+   "Where is Dad?",
+   "Kyro, where is Dad? I can't find him.",
+   "He is in the garden. He is watering the flowers.",
+   "Which pet can't come to the park?",
+   "Hello, children. The park has a pet day on Saturday. You can bring your dog or cat. Please do not bring a fish. Bring some water, too. Thank you!",
+   "What is Amy's favorite food?",
+   "Hi, I am Amy. I am eight years old. I live next to Kyro. I have a pet bird. It is green. My favorite food is bananas. I eat one every day.",
+   "I am hungry. Can I have a ____, Mom?",
+   "Ms. Wang works at the hospital. She takes care of sick people. She is a ____.",
+   "My sister ____ milk every morning.",
+   "Thursday, November 26. Today is a cold day. I wear my blue coat {1} school. In art class, I draw a big snowman. My teacher likes it very much. After school, Kane and I {2} hot soup at home. It is yummy!",
+   "How much is the hot dog? | Happy Bear Café",
+   "Which drink is twenty-five dollars? | Happy Bear Café",
+   "What time does the café open? | Happy Bear Café",
+   "The bus is yellow.",
+   "Amy can sing. Amy can dance.",
+   "The bird sings in the tree."
+  ]
  }
 ]
